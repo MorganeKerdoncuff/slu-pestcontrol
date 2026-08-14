@@ -1,0 +1,45 @@
+# Defaut
+.Ruserdata
+.DS_Store
+.Renviron
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+_quarto.yml
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+.Rproj.user
+
+# Data (excludes all data files)
+data/*
+*.csv
+*.txt
+
+# Figures (excludes all figures)
+outputs/*
+outreach/*
+illustrations/*
+*.png
+*.jpeg
+
+# Text output (excludes all rendered files)
+*.pdf
+*.html
+*.docx
+*.tex
+
+# Bibliography (exclude all bibtex files)
+*.bib
+*.json
+
+# Error monitoring
+*.log
+*.aux
