@@ -1,0 +1,56 @@
+---
+title: "Literature review for pest control project"
+format: html
+---
+
+# WP1 - Vulnerability analysis
+
+## Methodological approach
+
+@Agrowise
+- INRAE PROJECT: Guidelines for farm-specific or crop-specific rules for mitigating pesticides impacts while ensuring sustainable agriculture.
+
+@mathisComparisonExemplaryCrop2022
+- AIM: multi-criteria analysis to investigate trade-offs in different apple production systems in Switzerland
+- Crop protection strategies
+  - PEP2018 Swiss: Proof of Ecological Performance of 2018
+  - PPP reduced: principles of integrated production system aiming at minimising PPP & residues without causing yield loss
+  - High yield: conventional system, yield maximisation, risk minimisation
+  - Organic: prohibition synthetic PPPs & mineral fertilisers
+- Indicators
+  - PPP use: Treatment Frequency Index summarising number of product applications & dosage applied
+  - local ecotoxicological risk: model SYNOPS to assess local ecotoxicological risk of PPP on organisms living in edge-of-field surface waters, agricultural soils & terrestrial off-crop habitat
+  - global environmental impacts: 
+    - Swiss Agricultural Life Cycle Assessment method SALCA
+    - freshwater ecotoxicity, eutrophication potential, resource use, global warming potential & biodiversity
+  - economic impacts
+    - profitability: farmer's hourly wage
+    - production risks: yield fluctuations
+    - financial autonomy: invested capital
+    - workload: labour input
+
+@lechenetReconcilingPesticideReduction2014
+- AIM: to assess the sustainability of 48 arable cropping systems from two major agricultural regions of France (conventional, integrated & organic systems) based on a set of economic, environmental & social indicators
+- Cropping system classification
+  - organic
+  - integrated: diversified crop rotations or at least including one non-chemical pest control approach
+  - conventional: neither organic nor integrated
+- Local reference definition: to reflect the most widespread crop rotation & associated technical management as well as typical agricultural performance in the production situation -> to distinguish effects of agronomic strategies from the effects of the production situation
+- Indicators
+  - Treatment Frequency Index: summarises level of dependence on pesticides
+  - productivity: amount of energy harvested yearly
+    - allow comparison of different crop rotations with range of yielding potentials & different energy content
+    - transformation crop yield into energy value: Lower Heating Value = amount of energy released per unit of mass by the combustion of the harvested biomass
+  - energy consumption: conversion of inputs into energy
+    - Dia'terre database: evaluate a carbon-energy balance at farm-scale
+    - e.g. calculation energy cost associated with the production of nitrogen fertilisers integrates the energy necessary from raw material production, through materials processing, manufacture & distribution
+  - energy efficiency: ratio between productivity & energy consumption
+  - economic productivity:
+    - gross product: conversion crop yield into economic value
+    - semi-net margin: gross product/ha minus input costs = profitability without incentives/subsidies
+    - sensitivity to price volatility: relative deviation of semi-net margin over ten contrasting real price scenarios between 2000 & 2010
+  - fuel consumption & workload
+  - environmental impact: cumulated I-Pest = measures risk for air, surface water & groundwater
+  - crop sequence indicator Isc: quantify agronomic effects of crop diversification
+
+# WP2 - Mixture efficiency
