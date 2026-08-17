@@ -1,0 +1,43 @@
+---
+title: "Efficiency of early-flowering cultivar mixture in controlling crop damages in winter oilseed rape cultures"
+format: pdf
+---
+
+# Abstract
+
+# Introduction
+
+- Aim: to test how early-flowering cultivar mixture affects crop damage and yield in oil seed rape cultures.
+
+# Material and Methods
+
+## Study area
+
+## Investigated pests
+
+- cabbage stem flea beetle *Psylliodes chrysocephala*
+- pollen beetle *Brassicogethes aeneus*
+- blue stem weevil *Ceutorhynchus sulcicollis*
+- cabbage seed weevil *Ceutorhynchus obstrictus*
+- brassica pod midge *Dasineura brassicae*
+
+## Experimental design
+
+- Twelve farmers sowing an early-flowering cultivar mixture in at least 5 ha of the their fields
+- Paired design mixture/no mixture
+- Pesticide-free control plot in each treatment
+
+## Data collection
+
+### Plant injury
+
+- autumn 2026: 
+- leaf damage from cabbage stem flea beetle
+- spring 2026: 
+- larvae count from cabbage beetle 
+- pod damage from weevils & midges
+- podless stalks from pollen beetle -> needs more research
+
+# Results
+
+# Discussion
