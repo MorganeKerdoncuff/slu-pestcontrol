@@ -308,7 +308,7 @@ format: html
 - Field-based studies (*ex post*):
   - consider multifactorial context farmers encounter
   - drawbacks:
-    - vulnerability cannot be broke down into exposure, sensitivity & adaptive capacity
+    - vulnerability cannot be broken down into exposure, sensitivity & adaptive capacity
     - sensitivity not measurable since farmers often react to adverse events by implementing adaptations
 - Methodology objectives
   - assessing farm vulnerability to the drivers of multiple contextual changes
@@ -356,7 +356,7 @@ format: html
   - can be characterised by the initial point, the effect of the transition (direction & intensity) & the trajectory
 - Farm typology
   - simplify & group a variety of farm cases into fewer types to better understand this diversity
-  - used to assess & explain the differences betwee farming systems undergoing changes
+  - used to assess & explain the differences between farming systems undergoing changes
 - Methodology
   - Treatment Frequency Index (TFI) = sum, for each pesticide product applied during the crop season, of the ratio between the applied dose & the full registered & recommended dose
   - Indicators to build the typology according to farm performances
@@ -388,5 +388,54 @@ format: html
       - Pearson chi2 (proportions)/t-test (numeric): comparison initial and final point between & within clusters to assess changes in the phytosanitary strategy indicators
 
 @zaatraAssessmentFarmVulnerability2025
+- AIM: to provide a multi-criteria assessment of farm vulnerability to climate change in the Pays Haut Languedoc et Vignoble region
+- Aspects of vulnerability:
+  - exposure: susceptible hazards that can cause damage to people, species or ecosystems, resources or environmental services, infrastructure or economies, or social or cultural goods
+  - sensitivity: intrinsic characteristics making it particularly vulnerable/resistant to hazards, resulting in a propensity to be affected (+/-) by a hazard
+  - adaptive capacity: system's capacity to evolve to better manage its exposure and/or sensitivity, usually characterised by a set of factors that determines the ability of a system to generate & implement adaptation measures
+- Vulnerability factors to climate change
+  - physical factors that describe the exposure of vulnerable elements
+  - economic factors that describe the economic resources of indviduals, population groups & communities
+  - social factors that determine the wellness of individuals, population groups & communities
+  - environmental factors
+- Methodological approach
+  - to combine quantitative & qualitative dimensions in a detailed & multi-criteria farm-scale assessment to integrate farmers' risk perception
+  - agricultural vulnerability index (several formulas, no consensus)
+    - positive function of potential impact (exposure and sensitivity index)
+    - negative function of adaptive capacity
+    - Farm Vulnerability Index = (Exposure*Sensitivity/Adaptive capacity)
+  - variable transformation
+    - normalisation quantitative variables with min-max method
+    - normalisation qualitative variables with categorical scale's method
+    - farmer rating on how each variable affects their farm's vulnerability from 0 to 10
+  - linear model to analyse interactions between variables in each vulnerability component
+    - calculated vulnerability: average variables with all same weight
+    - declared vulnerability: different weights according to farmers scores
+- Data collection
+  - scoping interviews with local stakeholders (2 months) - preliminary
+  - expert consultations: semi-directive interviews to evaluate vulnerability approach, selected variables, relevance & feasibility
+  - farmer questionnaire: face-to-face with 90 farmers representative of production systems (2h)
+    - sociological farmer data
+    - farm data (land use type, soil type...)
+    - farming practices (weeding, fertilisation, irrigation...)
+    - perceptions of climate change
+    - ranking vulnerability factors
+  - farm exposure to climate change (drought, floods...)
+  - farm sensitivity to climate change (soil type, crop diversity)
+  - farm adaptive capacity to climate change: human, technical & economic capital
+- Analysis
+  - descriptive statistics - min, median, mean, max
+  - 3 vulnerability groups (low, medium, high) with minimum variance in each category
+  - Discriminant Analysis (DA) to investigate relationships between groups & explanatory variables
+    - minimises number of important indicators & highlights most relevant elements among a large number of associated sub-components within a collection of uncorrelated variables
+
+
 
 # WP2 - Mixture efficiency
+
+
+
+
+
+
+
