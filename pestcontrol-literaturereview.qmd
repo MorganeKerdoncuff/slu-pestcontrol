@@ -3,6 +3,246 @@ title: "Literature review for pest control project"
 format: html
 ---
 
+# Research context
+
+## Yield gap
+
+@bommarcoExploitingEcosystemServices2018
+- Ecological intensification
+  - yield gap = difference between what is actually produced on farms in a region & the potential primary production, given the climatic & edaphic conditions at that location, & with no losses to pests
+  - resource use efficiency gap = enhancing output in relation to input
+- Pest control objectives
+  - to devise locally adapted practices that provide targeted support for beneficial organisms
+  - to better understand how natural enemy communities should be composed to deliver stable & sufficient services
+- Solutions
+  - agricultural landscape diversification
+  - targeted diversification:
+    - introduce food resources e.g. perennial vegetation
+    - push-pull technique: maize intercropped with non-crop plant repellent (e.g. Desmodium) + trap plant attracting pests (e.g. Napier grass) along the border
+- Perspectives for agricultural research
+  - how species richness, community composition & interactions with communities determine flow & stability of ES & subsequently resource capture by the crop
+  - how land use & other environmental factors affect the distribution, abundance & community composition of organisms contributing to crop production
+  - how interactions between below and above ground subsidize or counteract primary production & infuence processes at ecosystem level
+  - targets for agricultural innovation:
+    - minimal environmental impact
+    - increased resource use efficiency
+    - flexibility & resilience to climate change or pest outbreaks
+    - adaptation to local conditions
+
+@vanittersumNarrowingEcologicalYield2025
+- "Ecological yield gap"
+  - common analytical framework to strengthen collaboration between agronomists & ecologists in assessing the contribution of ES within the wider array of inputs, management practices, technologies & biophysical limits that determine on-farm crop yields
+  - definition: yield increase that could be achieved in a given context (climate x soil x cropping system) & at a given input level, by increasing the delivery of ecosystem services via ecological intensification practices which support crop growth & substitute external inputs
+- European network: DEPHY in northern France, with Treatment Frequency Index -\> **QUESTION: how integrated will be the indicators for the vulnerability analysis to already existing European framework?**
+- Ecological intensification practices:
+  - crop rotation
+  - intercropping
+  - available organic nutrient sources coupled with synthetic nutrients
+  - reducing soil tillage intensity
+  - prolonging soil cover throughout the year
+  - synchronizing resources to the crop's needs via biotic regulation
+  - integrating habitat & plant diversity into farmed landscapes to support service provides such as pollinators & predators
+- Limitations in the feasibility according to context -\> more attention needed to agronomic functions of ecological intensification practices & context of farm management, climatic conditions & soils
+- Yield gap:
+  - efficiency: increase in yield that can be achieved, at a given resource supply & in a given context, by using more efficient practices (e.g. precision fertiliser application)
+  - resource: yield increase that could be achieved in the given context by providing more resources to the crop
+  - technology: not-yet-realised yield difference between the potential yield & the yield achieved by highest yielding farms, hence reflecting the incapacity of current on-farm technologies to reach agronomic best practices (e.g. sub-optimal timing of planting & management, lack of effective pest management practices)
+- Ecological yield gap
+  - overlap with efficiency, resource & technology
+  - e.g. legumes in crop rotation: N provision (resource) + rotation (technology)
+- Input x ecological yield gap
+  - input-yield production functions: how crop yields respond to an input depending on levels of other growth factors (limiting resources, abiotic & biotic stresses)
+- Different mechanisms of ecological intensification impacting yield response curve:
+  - increase in intercept (higher yield at zero input level) but same yield plateau: substitutive effect of practice
+  - increase in slope, i.e. increase of marginal use efficiency, & higher yield plateau, i.e. shift in maximum yield: complementary effect of practice (e.g. reduced biotic stress)
+- Adaptation to context:
+  - substitutive practices less effective at high resource input levels but could be useful to increase yields at low input levels
+  - complementary practices effective at both low & high input levels
+- From field the farm-level
+  - upscaling of practices that narrow the ecological yield gap at field level to their assessment at entire crop rotations & farming systems
+  - e.g. economic viability of the farm when rotation with less profitable crops involved
+  - temporal reliability and cost-effectiveness: profitability only after several years of application, stability under climate and environmental changes
+- Research perspectives
+    - ecological mechanisms and relationships underlying crop yields:
+      - e.g. belowground ES provision, pest suppression by wild predators
+      - interactions between crop nutrition & crop protection: resources will be used more efficiently if crop is well protected against weeds, pests & diseases
+    - on-station experimental research to investigate single or few ecological intensification practices
+      - long-term experiments that can account for variability, evolution & stability of effects
+    - on-farm observations
+      - benchmarking: to learn from the variation among farms & to identify what farms at the frontier do differently from others
+      - measurements: type, timing, method of application...
+      - challenge: accounting for many confounding factors & incomplete management information, but can be used to formulate hypotheses to be tested in experimental farms
+    - on-farm experimentation
+      - limited number of replications for farmer co-management feasibility, but larger number of farms
+
+## Pest control
+
+@agarwalModernTechnologiesPest2021
+- Pest control strategies
+  - Biological control: suppression of pest populations by natural ennemies (predators, parasites, competitors, diseases)
+  - Microbial pesticides: relatively stable formulations of microorganisms that suppress pests by producing poisons, causing diseases, preventing establishment of other microorganisms, or other mechnisms
+  - Pest behaviour-modifying chemicals: exploitation of the chemical signals used by living organisms to evoke specific behaviours from other organisms
+  - Geneteic manipulation of pest populations: release into the pest population of individuals genetically altered to carry genes that interfere with the pest's reproduction or impact
+  - Plant immunization: enhancement of plant resistance to pests by means other than breeding or genetic engineering
+- Innovations
+  - biorational products: pheromones or living microorganisms with low environmental impact (e.g. to lure pest towards killing agent)
+  - insect growth regulators: synthetic insect hormones which prevent from reaching maturity
+  - nontoxic heat treatments: kills through dehydration across all life stages
+  - CRISPR technology: gene editing tool to regulate fertility & sex determination of insects
+
+@zhouIntegratedPestManagement2024
+- Integrated Pest Management: involves integration of multiple control methods, including cultural, biological & chemical, to maintain pest populations below economically damaging levels while minimising risks to the environment & public health
+- Fundamental principles:
+  - prevention through cultural practices e.g. crop rotation & sanitation
+  - monitoring pest populations & their natural enemies
+  - using economic thresholds to guide management decisions
+  - employing a blend of biological, physical & chemical control methods
+  - efficiency assessments
+- **Prevention & cultural control methods**
+  - *crop rotation*: sequential cultivation of dissimilar crops on a given field across multiple growing seasons
+    - aim: spatiotemporal separation of host crops, trap crops & enhanced biodiversity
+    - efficiency: crop selection & temporal organisation, crop diversity, length rotation cycle & strategic incorporation of cover crops or green manures
+    - side benefits: increase soil fertility
+  - *intercropping*: concurrent cultivation of multiple crop species within a single field
+    - aim: ecological interactions between diverse plant species to establish agroecosystems limiting pest proliferation while enhancing the activity of natural enemies
+    - underlying mechanisms: resource competition, physical barriers, allelopathy & habitat manipulation
+    - efficiency: companion crop selection, spatial configuration, timing of establishment
+    - side benefits: increase soil fertility, water use efficiency & mitigation risk for crop failure from abiotic stressors
+  - *sanitation*: removal & destruction of pest-infested plant material, crop residus & other sources of pest inoculum from farmlands & surrounding areas
+    - aim: shrink emergent pest population & prevent spread within & between cropping seasons
+    - field-level & farm-level (disinfection equipment, storage & transporation facilities)
+  - *resistance varieties*: rely on genetic diversity of crops to minimise adverse-effects of pests & diseases
+  - aim: decrease pesticide dependence, minimise yield loss & enhance resilience
+  - antixenosis: makes plant less attractive or suitable for feeding, oviposition or shelter
+  - antibiosis: plant characteristics with direct adverse consequences on pest growth, development, reproduction or survival (e.g. secondary toxic metabolites, physical barriers)
+  - tolerance: capacity of a plant to withstand/recover from pest damage without significant yield reduction
+  - potential drawback: resistance development in pest populations
+- **Monitoring & decision-making**
+  - *scouting & sampling techniques*: monitor pest populations & negative effects on crop plants (visual inspection, sweep nets, sticky traps, pheromones traps, remote sensing technologies)
+  - AI technology
+    - insect identification based on image recognition & Deep Learning
+    - forecasting model based on Machine Learning & neural networks
+    - optimising monitoring infrastructure to improve predictive models
+  - *economic injury levels* (pest population density at which the cost of crop damage equals the cost of control) & *action thresholds* (lower pest density to prevent populations from reaching EIL)
+    - calculations from pest density, crop susceptibility & cost/benefit assessments management strategies
+    - required knowledge: accurate monitoring data, pest damage relationships across different environmental conditions & crop phenological stages & propensity for multispecies pest interactions impacting crop yield
+- **Biological control**
+  - *natural enemies*: parasitoids, predators & pathogens regulating pest populations through predation, parasitism or infection
+  - *Classical Biological Control (CBC)*: importation & establishment of natural enemies sourced from the native selection of the target pest
+    - aim: long-term pest suppression by reestablishing the ecological balance between the pest & its natural enemy in the introduced range
+    - efficiency: host specificity, climatic adaptability, reproductive potential & searching efficiency
+    - risks: nontarget impacts on native species, unintended spread of introduced agents to new areas, possible interference with other IPM tactics
+  - *Conservation biological control (CVBC)*: modifying the crop environment to favor the survival & performance of natural enemies
+    - aim: enhance abundance, diversity & effectiveness of natural enemies in agroecosystems
+    - conservation techniques: provision of alternative food resources, creation of shelters & overwintering sites, minimisation of broad-spectrum pesticide applications
+    - augmentation techniques: cyclic release of externally grown natural adversaries to supplement existing populations or compensate their absence
+  - *gene drives*: introduction of genetic traits limiting the fertility and/or lifespan of targeted pests
+- **Chemical control**
+  - *selective & targeted pesticide use*
+    - required knowledge: pest life cycle, ecological interactions, population fluctuations, crop phenology & relationships within agroecosystems
+  - *Resistance Management Strategies (RMS)*: prevent or delay the buildup of pesticide resistance in target pest populations
+    - aim: mitigate the selection stress exerted by repeated pesticide applications on pest populations which faour the survival & reproduction of resistance individuals
+  - *Biopesticides & naturally derived products*
+    - microbial pesticides: bacteria, fungi, viruses & nematodes that are pathogenic to targeted pest species
+    - essential oils (atomized powders, nanoemulsions, Natural Deep Eutectic Solvents): repellency, phytotoxicity, entomotoxicity
+  - *Nanotechnology*
+    - Nanoencapsulation of active ingredient: improve stability, solubility & controlled release
+    - Nanoformulations: enhance penetration & translocation of pesticides within plant tissues
+
+## Alternative strategies
+
+### Semiochemical trapping
+
+@raderschallSemiochemicallyAssistedTrap2025
+- Aim: to test the efficiency of trap crops coupled with semiochemical trapping for pest management
+- Crop: Faba bean
+- Pest: broad bean beetle (*Bruchus rufimanus*): feed on pollen & lay eggs on developing pods
+- Trap crops:
+  - "plant stands that are, per se or via manipulation, deployed to attract, divert, intercept &/or retain targeted insects of the pathogens they vector in order to reduce damage to the main crop"
+  - early flowering accessions more damaged: aim for an early flowering cultivar
+  - challenge: early attraction but potential dispersal to main crop later on -\> either control agent (kill the pest) or enhanced attractiveness with semiochemicals
+- Semiochemicals:
+  - signals between individuals of same species (pheromones) or among different species (kairomones) to modify the behaviour of the recipient
+  - kairomones in the shape of flower & pod scents attractive for broad bean beetles
+- Methods
+  - Landscape-scale experiment of 24 commercially grown faba bean fields with 12 pairs of treated & control
+  - trap crop: Finnish faba bean cultivar with one-week earlier flowering
+  - Capture: pan traps (2021) & white double-sided sticky traps (2023)
+  - Measurements: egg number on pod, damage on bean (emergence hole)
+- Analysis (lme4)
+  - number of eggs per pod among treatment & transect combinations
+    - response: number of eggs per pod
+    - model: linear mixed effect model based on negative binomial distribution with a log link
+    - random effect: transect nested & field pair ID (1\|Field_ID/treatment/transect)
+  - proportion of damaged beans among treatment & transect combinations
+    - response: total number of beans & number damaged beans per transect
+    - model: generalised linear mixed effect model based on binomial distribution with a logit link
+    - random effect: treatment nested within field pair ID (1\|Field_ID/treatment)
+  - crop yield
+    - response: bean weight per square meter
+    - model: linear mixed effects model based on nomral distribution
+    - random effect: 1\|Field_ID/treatment
+  - number of plants/m2 & yield components among transect & treatment combinations
+    - response: plants/m2 & pods per plant
+    - model: generalised linear mixed effect model based on negative binomial distribution & a log link
+    - random effect: 1\|Field_ID/treatment/transect
+    - response: average number beans/pod & individual bean weight
+    - model: linear mixed effects models based on normal distribution
+    - random effect: 1\|Field_ID/treatment
+  - assumptions: DHARMa package (distribution residuals, heteroscedasticity)
+  - marginal & conditional R^2^: r2_nakagawa from *performance* package
+  - interactions treatment x transect: post-hoc tests with *emmeans* package
+- Findings: significant but modest reductions of bean damages -\> proof-of-concept but further questions for coast-benefit ratio
+
+### Flower strips
+
+@rodriguez-gasolPerennialFlowerStrips2026
+- Aim: to assess the multifunctional effect of flower strip & their spillover to adjacent crops
+  - pollinator abundance within field margins
+  - natural enemy & herbivore abundance within field margins & spillover into adjacent cereal fields
+  - biological pest control in adjacent fields
+  - soil detritivore activity within field margins & in adjacent fields
+- HYP
+  - perennial flower strips enhance abundance of pollinators, natural enemies, herbivores & soil detritivore activity within margins
+  - but these groups will not spillover
+  - leading to lack of benefits for pest control or soil detritivore activity in adjacent crops
+- Study design
+  - "Sweden Blossom" initiative: https://hushallningssallskapet.se/vara-projekt-och-uppdrag/hela-sverige-blommar/
+  - 10 pairs of sown perennial flower strips & spontaneous vegetation controls (same field except one case)
+  - pollinators: flower visitors
+  - natural enemies & pests:
+    - yellow sticky traps for leaf-dwelling natural enemies & herbivores
+    - pitfall traps for ground-dwelling natural enemies
+  - arthropod community on crop tiller (count)
+  - pest control: aphid predation rates with sentinel prey cards
+  - decomposition rate: bait lamina strips
+- Analyses
+  - Data aggregation
+    - plants: average
+    - arthropods: sum
+    - rates: proportions based on aggregated totals
+  - GLMM Field margin x pollinator abundance
+    - fixed effects: field margin habitat type
+    - random intercept: field
+    - response variables: % vegetation cover, total floral area, abundance hoverflies, honey bees, bumblebees & solitary bees
+  - GLMM Field margin & adjacent crop x arthropod abundance & decomposition rate
+    - fixed effects: field margin habitat type & crop type + two & three-way interactions
+    - random intercept: field
+    - response variables: abundance leaf-dwelling spiders, predatory beetles, predatory bugs, lacewings, predatory thrips, hoverflies, parasitic wasps, aphids, thrips, other herbivores, ground-dwelling spiders, carabid beetles, rove beetles & decomposition rate
+  - GLMM field margin x arthropod tiller count & aphid predation
+    - fixed effects: field margin habitat type, crop type & interaction
+    - random intercept: field
+    - response variables: natural enemies, aphids, thrips & aphid predation rates by leaf-dwelling & ground-dwelling arthropods
+  - Distribution: negative binomial & beta-binomial distribution
+  - Transformation: shrink transformation for variables bound between 0 & 1
+  - Model validation: distribution appropriateness, overdispersion, underdispersion & zero inflation
+  - Statistical significance: type III Wald chi2 test with ANOVA function from the *car* package
+  - Post-hoc tests to evaluate significant interactions between fixed effects with pairiwse comparisons adjusted for multiple testing using Tukey's method
+- Findings
+  - Ha validated: perennial flower strips enhanced pollinator abundance & natural ennemies
+  - Hb contradicted: spillover of most natural enemy groups in adjacent crop fields
+  - hc validated: but no increased pest control, & indesirable tradeoff as herbivorous thrips were 1.37 times more abundant on crop tillers near flower strips
+
 # WP1 - Vulnerability analysis
 
 ## Methodological approach
@@ -52,5 +292,101 @@ format: html
   - fuel consumption & workload
   - environmental impact: cumulated I-Pest = measures risk for air, surface water & groundwater
   - crop sequence indicator Isc: quantify agronomic effects of crop diversification
+  
+@martinIntegratedMethodAnalyze2017
+- Vulnerability: function of exposure & sensitivity of a system to a range of hazards & the adaptive capacity of the system to cope with, adapt to, or recover from the effects of these conditions
+  - exposure: duration, extent & frequency of perturbations
+  - sensitivity: degree to which system responds to perturbations
+  - exposure & sensitivity determine the potential impact given perturbation variability
+  - adaptive capacity: degree to which system can adjust to, moderate, or offset the potential impacts, or take advantage of opportunities created by given events
+  - actual impact: impact that remains after accounting for adaptive capacity
+- Model-based studies (*ex ante*):
+  - enable strict application of the vulnerability framework by isolating farm sensitivity from adaptive capacity
+  - drawbacks:
+    - limited ability to reproduce farm management & production when applied to new sites
+    - simulation of farm adaptations in simplified context ignoring key issues to farmer
+- Field-based studies (*ex post*):
+  - consider multifactorial context farmers encounter
+  - drawbacks:
+    - vulnerability cannot be broke down into exposure, sensitivity & adaptive capacity
+    - sensitivity not measurable since farmers often react to adverse events by implementing adaptations
+- Methodology objectives
+  - assessing farm vulnerability to the drivers of multiple contextual changes
+  - explaining this vulnerability as a function of initial farm configurations & farmers' multiple technical adaptations
+- Main principle: farm vulnerability as a function of three main components of linear regression over time
+  - mean level: raw measurements of vulnerability variables (or fitted/mean values)
+    - high measurement values =\> towards "good" mean performance
+  - general trend over the period: slope of the linear regression of these measurements over time
+    - stable or increasing trend =\> towards improvement
+  - variability: residuals of the linear regression
+    - low =\> towards stability & robustness
+- Step 1: choosing vulnerability & explanatory variables (expert knowledge)
+  - productivity (e.g. kg protein/ha/year) & economic efficiency (e.g. %/year)
+- Step 2: calculating farm-specific vulnerability variables
+  - regression for each vulnerability variable as a function of the year to extract trend & residuals
+  - performed for all farms, surveyed farms being as random sample from entire farm population
+  - linear mixed models with random-coefficient regression
+    - overall mean = intercept common to all farms
+    - overall trend = slope common to all farms
+    - random deviation from the overall mean for each farm
+    - random deviation from the overall trend for each farm
+    - residuals provide additional measures of stability
+    - random rather than fixed effect: extreme values lessened in a random model, which avoids over-emphasizing outliers
+  - each farm is characterised by
+    - its level at the beginning of the period expressed (intercept), as a deviation from the overall performance level of all farms
+    - its trend over the period, as a deviation from the overall trend
+    - the variability around the expected trajectory
+- Step 3: characterising the diversity of farm vulnerability patterns
+  - descriptive analysis: PCA of all vulnerability variables
+  - identify relationships among vulnerability variables (+/- correlations)
+  - identify patterns of farms' vulnerability trajectories
+- Step 4: understanding farm vulnerability from explanatory variables
+  - partial least squares regression: to reduce dimensionality & search for the maximum covariance between response & explanatory variables
+  - PLS predicts multiple vulnerability variable from two types of explanatory variables (climatic and economic exposure variables) & variables describing initial farm configurations & farmers' technical adaptations over time
+- Explanatory variables
+  - exposure - related to natural & economic threats
+  - adaptive capacity - related to management
+  
+@fouilletDiversityPesticideUse2023
+- Change intensity in pesticide use: Efficiency, Substitution and Redesign framework (ESR)
+  - efficiency (e.g. dose reduction) & substitution (e.g. biocontrol) associated with progressive transition
+  - redesign (e.g. conversion to organic farming) associated with abrupt & direct transition
+- Transition path:
+  - succession of linear periods, which determine the possibility of a system to go in one direction but being interrupted by a nodal point
+  - can be characterised by the initial point, the effect of the transition (direction & intensity) & the trajectory
+- Farm typology
+  - simplify & group a variety of farm cases into fewer types to better understand this diversity
+  - used to assess & explain the differences betwee farming systems undergoing changes
+- Methodology
+  - Treatment Frequency Index (TFI) = sum, for each pesticide product applied during the crop season, of the ratio between the applied dose & the full registered & recommended dose
+  - Indicators to build the typology according to farm performances
+    - initial normalised TFI (starting point)
+      - ratio between initial individual TFI & regional TII
+      - normalised to eliminate region effect
+      - reflects the intensity of pesticide reduction compared to other farms in the same region
+    - final TFI (ending point)
+      - mean TFI for the last 3 years (to limit year effect)
+      - un-normalised value
+    - regression slope (general trend)
+      - path taken over 10 years
+    - sum of square deviation (overall variability farming system)
+    - maximum variation (robustness & variability)
+      - maximum residuals having the largest absolute value
+    - slope break (ruptures)
+      - two-piecewise continuous linear regressions: assume the existence of a breakpoint at the junction of two-line segments
+  - Explanatory indicators describing phytosanitary strategies
+    - type of product: biocontrol (macroorganisms, microorganisms, chemical mediators, natural substances), copper products
+    - applied dose per treatment (fungicides, herbicides, insecticides)
+    - use of chemical herbicides
+    - production mode (conventional, organic, in conversion)
+  - Statistical analysis
+    - typology:
+      - PCA: identify relationships between indicators
+      - hierarchical cluster analysis on coordinates of PCA axes with eigenvalue\>1: define farm trajectory typology
+    - characterisation of clusters of pesticides use trajectory
+      - ANOVA/non parametric KW: compare indicators used to set up typology between clusters
+      - Pearson chi2 (proportions)/t-test (numeric): comparison initial and final point between & within clusters to assess changes in the phytosanitary strategy indicators
+
+@zaatraAssessmentFarmVulnerability2025
 
 # WP2 - Mixture efficiency
