@@ -245,6 +245,14 @@ format: html
 
 # WP1 - Vulnerability analysis
 
+## Vulnerability concept
+
+@smitAdaptationAdaptiveCapacity2006
+
+@gallopinLinkagesVulnerabilityResilience2006
+
+@hinkelIndicatorsVulnerabilityAdaptive2011
+
 ## Methodological approach
 
 @Agrowise
@@ -429,6 +437,96 @@ format: html
   - Discriminant Analysis (DA) to investigate relationships between groups & explanatory variables
     - minimises number of important indicators & highlights most relevant elements among a large number of associated sub-components within a collection of uncorrelated variables
 
+### AgroExplore
+
+@wirehnAssessingAgriculturalVulnerability2017
+- AIM: to design a conceptual framework to support the integration of geographic visualisation for vulnerability assessments for the development of AgroExplore, an interactive tool for assessing agricultural vulnerability to climate change in Sweden
+- Conceptual design
+  - issue with vulnerability assessment: different conceptual approaches, different interpretations of the exposure, sensitivity & adaptive capacity composite leading to different methods of calculation
+  - approach: addressing inconsistencies by advanced transparency -> flexibility of geovisualization tools
+- AgroExplore workflow
+  - selection & weighing of agricultural vulnerability indicators
+    - selection & categorisation indicators for exposure, sensitivity & adaptive capacity sub-indices
+    - indicator weighing
+    - geographical exploration of sub-indices through 3 map displays
+  - setting of agricultural vulnerability sub-indices
+    - selection sub-indices' shares in the integrated index of vulnerability
+    - geographical exploration of index through map display
+  - exploration of the integrated index with Sankey diagram, parallel coordinate plot, datagrid
+- Indicators & data
+  - initial set of indicators from literature, which aim to be continuously updated
+  - upscaling (aggregation) & downscaling (replication) at municipality level
+  - data normalsiation between 0 and 100 using min-max method
+- User possibilities
+  - default setting: expert knowledge (e.g. default share exposure 40%, sensitivity 30%, adaptive capacity 30%)
+  - can adjust indicator weights & sub-indice shares -> update Sankey diagram
+
+@nesetEvaluationIndicatorsAgricultural2019
+- AIM: to analyse the role of indicators in assessing agricultural vulnerability to climate change
+- Different categories vulnerability assessments
+  - regional comparison
+  - general assessment of future stressors
+  - enhancing the understanding of vulnerability factors as a foundation to design adaptation strategies
+- Method
+  - 3 focus group sessions in the Norrköping Decision Arena 
+  - 3-5 experts/session representing the Swedish Board of Agriculture, the county board, branch organisations & private consultancies in the Östergötland county
+  - qualitative data: 2h records of focus session, analysed using thematic analysis
+  - quantitative data: the final individual AgroExplore settings
+- Assessment of vulnerability indicators & thresholds
+  - indicators always selected: spring & autumn precipitation change (exposure), farm income (adaptive capacity)
+  - deselection: rather lack of knowledge than considering indicator irrelevant
+  - discussion associated with exposure:
+    - would a single climatic factor substantially affect exposure, or does it relate more to a combination of factors ?
+    - climate change overall considered more important in terms of extremes rather than averages
+    - several indicators weighed differently according to crop type considered in the response
+    - climate impacts dependent on specific circumstances of the system in which they occur
+  - discussion associated with sensitivity:
+    - relevance of clay content, P content & pH at aggregated municipality level ?
+    - crop yield as the highest-weighted indicator
+    - two perspectives for arable land: more is more to lose vs more is higher dispersal of risks
+  - discussion associated with adaptive capacity
+    - farm income: profitability more important than income to determine adaptive capacity
+- Context-dependent correlation of indicators with vulnerability
+  - increased winter temperature: increases vulnerability by decreasing ground frost & winter rest, but decreases vulnerability by increasing growing season
+  - depends on timing (e.g. precipitation)
+  - summer temperature & precipitation: narrow margin of error in determining what magnitude of increase might positively affect productivity
+- Missing indicators
+  - exposure
+    - extreme weather events, variability
+    - rain intensity more relevant than summer precipitation
+    - ground water content
+    - wind: relevant to the efficiency of pesticide application
+    - how "increased pests & weeds" variable could be included
+    - market: food prices, imports, exports
+  - sensitivity
+    - slope: estimate need for drainage
+    - irregularity field shape
+    - market: external prices, profitability
+  - adaptive capacity
+    - access to pesticides
+    - diversity of the farm enterprise
+    - access to agricultural extension
+    - economic support (subsidies)
+    - how to integrate polical decisions/practices
+
+![](literature/nesetEvaluationIndicatorsAgricultural2019_1.jpg)
+
+## Swedish data
+
+@StatistikmyndighetenSCB
+- Näringsverksamhet och utrikeshandel
+  - Företagens (business) demografi
+    - Konkurser (bankruptcies)
+    - Nystartade företag
+    - Uppföljning (follow-up) av nystartade företag
+  - Företagens produktion, försäljning (sales) och ekonomi (yearly)
+    - Företagens ekonomi
+    - Industrins varuproduktion
+    - Livesmedelsförsäljning (food sales) fördelad på varugrupper
+  - Företagsdatabasen (FDB)
+- Priser och ekonomiska tendenser
+- Jordbruk, skogsbruk och fiske
+- Miljö
 
 
 # WP2 - Mixture efficiency
