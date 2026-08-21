@@ -596,20 +596,88 @@ format: html
 ## Swedish data
 
 @StatistikmyndighetenSCB
-- Näringsverksamhet och utrikeshandel
+- Näringsverksamhet och utrikeshandel (Tillväxtanalys)
   - Företagens (business) demografi
-    - Konkurser (bankruptcies)
-    - Nystartade företag
-    - Uppföljning (follow-up) av nystartade företag
+    - Konkurser: trends in number of bankruptcies
+    - Nystartade företag: emergence of businesses with new operations
+    - Uppföljning av nystartade företag: survival rate of start-ups three years after establishment
   - Företagens produktion, försäljning (sales) och ekonomi (yearly)
-    - Företagens ekonomi
-    - Industrins varuproduktion
-    - Livesmedelsförsäljning (food sales) fördelad på varugrupper
-  - Företagsdatabasen (FDB)
-- Priser och ekonomiska tendenser
-- Jordbruk, skogsbruk och fiske
+    - Företagens ekonomi: number companies & employees, production & value added, investments, revenue & cost, operating profit
+    - Industrins varuproduktion: industrial production by amount and value
+    - Livesmedelsförsäljning fördelad på varugrupper: total volume of food & drink sold in the retail sector
+  - Företagsdatabasen (FDB): business registry
+- Priser och ekonomiska tendenser (konj.se)
+  - Konjunkturbarometern (barometre) företag: economic trends amongst companies in Sweden
+  - Byggkostnadsindex (Construction Cost Index): changes in the cost of production factors in residential construction (agricultural buildings included)
+  - Byggnadsprisindedx (Construction Price Index): price trends for newly built dwellings
+  - Konsumentprisindex: average price trend for total private domestic consumption
+  - Prisindex i producent- och importled (PPI): average price trend at the producer & import stages
+- Jordbruk, skogsbruk och fiske (Jordbruksverket.se)
+  - Jordbrukets ekonomi
+    - Ekonomisk kalkyl fö jordbruksseektorn (EAA): value of production in the agricultural sector, production costs & economic development
+    - Jordbrukarhushållens inkomster: incomes of farming households
+    - Jordbruksekonomiska undersökningen: income, costs & profits for agricultural holdings
+  - Jordbrukets produktion
+    - Allmän jordbruksstatistik: general agricultural statistics
+    - Lagerhållning av spannmål och raps: stocks of cereals & winter rapeseed
+    - Livsmedelsstatistik: food consumption
+    - Normskördar: standard yiels (expected under normal weather conditions)
+    - Skörd av potatis: potato yield per ha
+    - Skörd av slåttervall: hay meadow yield per ha
+    - Skörd av spannmål, trindsäd och oljeväxter: cereals, legumes & oilseeds yield per ha
+    - Skörd för ekologisk och konventionell odling: cultivated areas & yields under conventional & organic farming
+    - Skördeprognos för spannmål och oljeväxter: forecast for yields & cultivated area for cereals & oilseeds
+    - Trädgårdsodlingens produktion: commercial production of horticultural crops
+  - Jordbrukets struktur
+    - Dränering av jordbruksmark: area of drained arable land
+    - Ekologisk växtodling: areas & number of farms using organic production
+    - Företag och företagare i jordbruket: number of enterprises with arable land & agricultural land
+    - Heltidsjordbruket i Sverige: holdings with full-time farming
+    - Höstsådda arealer: areas sown in autumn
+    - Jordbruksföretagens driftsinriktning: holdings & labour requirements by operational focus
+    - Jordbruksföretagens kombinarionsverksamhet: holdings with mixed activities
+    - Jordbruksmarkens användning: land use cover for arable lands
+    - Trädgårdsodlingens fruktträd: areas for horticulture
+    - Trädgårdsodlingens struktur: structural aspects of commercial horticulture
+    - Trädgårdsodlingens växthus: greenhouses in horticulture
+  - Prisutveckling i jordbruket
+    - Arrendepriser för jordbruksmark: average rental rate for agricultural lands
+    - Markpriser: average prices for agricultural lands & number of sales
+    - Prisindex och priser på livsmedelsområdet: Input price index (Produktionsmedelsprisindex PM-index), Settlement price index (Avräkningsprisindex A-index), Producer price index for food industry, agricultural regulated foodstuffs (jordbruksreglerade livsmedel PPI-J), Consumer price index for agricultural regulated foodstuffs (KPI-J)
+  - Sysselsättning i jordbruket: employement statistics in agriculture
 - Miljö
+  - Försäljning och användning av kemikalier (Kemikalieinspektionen)
+    - Försålda kvantiteter av bekämpningsmedel: quantity of pesticides sold
+    - Miljö- och hälsofarliga kemikalier: description use of 80 chemicals (no longer updated)
+    - Växtskyddsmedel i jord- och trädgårdsbruket- användning i grödor: regional statistics & monitoring of plant protection products
+    - Växtskyddsmedel i jord bruket, beräknat antal hektardoser: annual sale data from manufacturers
+  - Sötvatten - miljötillstånd: water quality in surface and groundwater (e.g. acidification)
+  - Miljöekonomi och hållbar utveckling
+    - Hållbarhet i svenskt jordbruk: sustainability in agriculture
+    - Miljöräkenskaper: environmental accounts including environmental subsidies, material & chemical flows
+    - Miljöskyddskostnader: environmental protection costs
+  - Sötvatten - miljötillstånd miljögifter: environmental pollutants in freshwater
+  - Vattenanvändning och vattenenvändning i Sverige: water use in society, including agriculture
+  - Gödselmedel och odlingsåtgärder i jordbruket: fertiliser use, handling & storage
 
+@Jordbruksverket
+- Arealer
+  - riket/län/kommun
+    - Åkermarkens användning och antal företag med åkermark efter län och gr¨da (1981-2025): Use of arable land and number of farms with arable land by county & crop
+    - Åkermarkens användning efter kommun och gröda (1981-2025): Use of arable land by municipality & crop
+  - produktionsområde
+    - Jordbruksmarkens användning och antal företag med jordbruksmark efter produktionsområde och gröda (2001-2025): Use of agricultural land & number of holdings with agricultural land by production area and crop
+    - Jordbruksmarkens användning och antal företag med jordbruksmark efter storleksgrupper och gröda (2010-2025): Use of agricultural land & number of holdings with agricultural land by size group and crop
+  - Ågoslagsareal efter län (1981-2025): Area by land tenure by county
+  - Bevattning och dränering i jordbruket efter produktionsområde (2003-2023): Irrigation & drainage in agriculture by production area
+  - Höstsådda arealer
+    - Höstsådda arealer efter län och gröda (2002-2025): Areas sown in autumn by county & crop
+    - Höstsådda arealer efter produktionsområde och gröda (2002-2025): Areas sown in autumn by production area & crop
+    - Höstsådda arealer avsedda att odlas eklogiskt i Sverige efter gröda (2005-2025): Areas sown in autumn for organic cultivation by crop
+  - preliminära arealer
+    - Preliminära grödarealer efter län och gröda (2018-2026): preliminary crop areas by county & crop
+    - Preliminära grödarealer efter produktionsområde och gröda (2018-2026): preliminary crop area by production area & crop
+    - Preliminära grödarealer efter storleksgrupp och gröda (2018-2026): preliminary crop area by size group & crop
 
 # WP2 - Mixture efficiency
 
