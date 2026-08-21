@@ -248,8 +248,90 @@ format: html
 ## Vulnerability concept
 
 @smitAdaptationAdaptiveCapacity2006
+- AIM: review the concept of adaptation of human communities to global change in the context of adaptive capacity and vulnerability
+- Adaptation (in the context of human dimensions of global change) = process, action or outcome in a system to better cope with, manage or adjust to some changing condition, stress, hazard, risk, or opportunity.
+- Pressure & Release model (PAR): identify environmental stresses of hazards & the progression  of social forces that contribute to vulnerability, including those that relate to adaptive capacity.
+- Climate research: four common purposes
+  - to assess the degree to which they can moderate or reduce negative impacts of climate change, or realise positive effects, to avoid danger
+    - adaptations conventionally assumed or hypothetical
+    - focus on the effect of assumed adaptations: estimate climate impact & the difference adaptation could make
+    - does not
+      - empirically investigate adaptations
+      - examine actual processes of adaptation or adaptive capacity 
+      - explore conditions facilitating or constraining adaptations
+      - document decision-making processes
+  - to investigate specific adaptation measures for a particular system to assess their relative utility & identify the best options
+    - adaptations considered distinct & discrete
+    - merit: benefit-cost, cost effectiveness & multiple-criteria procedures
+    - does not (generally)
+      - investigate processes through which adaptation measures are undertaken
+  - to explore the relative adaptive capacity or vulnerability of communities
+    - comparative evaluation based on criteria, indices & variables selected by researcher
+    - vulnerability: "starting point" assumed to be measurable based on determinants selected *a priori*
+    - surrogate measures of exposure or sensitivity & elements of adaptive capacity are estimated & aggregated to generate an overall vulnerability score
+    - does not
+      - identify processes, determinants or drivers of adaptive capacity & vulnerability as they function in each system
+      - address policy & decision-making processes that deal with the conditions that can alter adaptive capacity & vulnerability -> implication implicit from outputs
+  - to contribute to practical adaptation initiatives = to investigate the adaptive capacity & adaptive needs in a particular community to identify means of implementing adaptation initiatives or enhancing adaptive capacity
+    - identification & development of particular adaptive measures tailored to the needs of that community
+    - focus on documenting the way in which the system experiences changing conditions & the processes of decision-making that may accommodate adaptations
+    - bottom-up approach, not designed to be aggregated at broader scale
+- Vulnerability: a function of the exposure & sensitivity of a system to hazardous conditions & the ability/capacity/resilience of the system to cope, adapt, or recover from the effects of those conditions
+  - broader stresses determine exposure & sensitivity through interaction environmental & social forces, & shape adaptive capacity through various social, cultural, political & economic forces, at local level
+  - finer scale interaction: local vulnerability
+  - adaptations: particularly expressions of inherent adaptive capacity
+- Exposure & sensitivity: likelihood of a system experiencing particular conditions, & the occupance & livelihood of the system which influence its sensitivity to such exposure
+  - occupance: broader social, economic, cultural, political & environmental conditions driving/determining exposure & sensitivity
+  - many determinants of occupance or sensitivity similar to those that influence a system's adaptive capacity
+- Adaptive capacity: defined by the conditions that a system can deal with, accommodate, adapt to, and recover from
+  - relates to adaptability, coping ability, management capacity, stability, robustness, flexibility & resilience concepts
+  - drivers adaptive capacity: forces that influence the ability of a system to adapt
+  - local adaptive capacity function of broader conditions, can be influenced by: managerial ability, access to financial, technological & information resources, infrastructure, institutional environment within which adaptations occur, political influence, kinship networks...
+  - context-specific in terms of value & nature
+  - thresholds, coping ranges: flexible, respond to changes in economic, social, political & institutional conditions over time
+  - limited predictability: warm, wet years increase crop production, but can also favour pest outbreaks -> hard to predict overall effect on yield
+- Adaptations: manifestations of adaptive capacity, to better deal with problematic exposures and sensitivities
+- General principles for practice
+  - for the researcher not to presume to know the exposure & sensitivities that are pertinent to the community
+  - for the research not to specify a priori determinants of adaptive capacity in the community
+  - participatory assessments 
+    - allow for the recognition of multiple stimuli beyond those related to climate, including political, cultural, economic, institutional & technological forces
+    - recognise interaction of various exposures, sensitivities & adaptive capacities over time (not linear, what is vulnerable for x period is not for y)
+    - recognise that sources of exposures, sensitivities & adaptive capacities function across scales, from individual to national
+  
+
+![](literature/smitAdaptationAdaptiveCapacity2006_1.jpg)
 
 @gallopinLinkagesVulnerabilityResilience2006
+- AIM: systemic perspective to identify & analyse the conceptual relations among vulnerability, resilience & adaptive capacity within social-ecological systems
+- Vulnerability: most often conceptualised as being constituted by components that include exposure to perturbations or external stresses, sensitivity to perturbation, and the capacity to adapt [@adgerVulnerability2006]
+  - multiscale nature of the perturbations & their effects upon the system
+  - most SES exposed to multiple, interacting perturbations
+- Perturbation, stress, hasard, or shock
+  - perturbations: major spikes in pressure beyond the normal range of variability in which the system operates, & commonly originate beyond the system or location in question
+  - stress: continuous or slowly increasing pressure, commonly within the range of normal variability
+- Sensitivity: degree to which the system is modified or affected by an internal or external disturbance or set of disturbances
+  - "extent to which a human or natural system can absorb impacts without suffering long-term harm or other significant state change" [@adgerVulnerability2006]
+  - exposure-sensitivity represents a unified concept for some authors
+- Capacity of response: system's ability to adjust to a disturbance, moderate potential damage, take advantage of opportunities, & cope with the consequences of a transformation that occurs
+  - also coping capacity or adaptive capacity
+- Exposure: degree, duration and/or extent in which the system is in contact with, or subject to, the perturbation
+  - whether to include exposure as a component of vulnerability or not
+    - if included, vulnerability becomes a property of the relationship between the system and the perturbation, rather than of the system itself
+    - if excluded, vulnerability is a property of the system only, expressing itself when the system is exposed to the perturbation
+- Resilience
+  - basin of attraction: portion of the state space of a dynamic system that contains one attractor toward which the state of the system tends to go, and is therefore one region of the state space where the system would tend to remain in the absence of strong perturbations
+  - attractor: what the behavior of a system settles down to
+  - stability landscape: configuration of all basins of attraction, including the boundaries separating them
+  - when multiple attractors: a continuous variation in some critical parameter can result in discontinuous changes in the stability landscape of the system -> bifurcations (mathematical theory dynamical systems) or catastrophes (catastrophe theory)
+  - three levels of stability
+    - local stability or engineering resilience: behaviour of trajectories of the system in the neighbourhood of an attractor, within a given domain of attraction
+    - ecological resilience: capacity of the system to remain within the same domain of attraction (assess changes between domains of attraction within the stability landscape of the system)
+    - structural stability: capacity of a system to preserve the topology of its trajectories under perturbations of the dynamic equations of the system ("true" transformation of a system)
+- Adaptive capacity: ability of a system to adjust to climate change to moderate potential damages, to take advantage of opportunities, or to cope with the consequences (IPCC)
+  - two components for SES
+    - capacity to cope with environmental contingencies
+    - capacity to improve its condition in relation to its environment (often left behind by more recent use of the term adaptive capacity - e.g. IPCC definition too restrictive)
 
 @hinkelIndicatorsVulnerabilityAdaptive2011
 
