@@ -334,6 +334,85 @@ format: html
     - capacity to improve its condition in relation to its environment (often left behind by more recent use of the term adaptive capacity - e.g. IPCC definition too restrictive)
 
 @hinkelIndicatorsVulnerabilityAdaptive2011
+- AIM: to develop a rigorous conceptual framework for vulnerability indicators & apply it to review scientific arguments available for building climate change vulnerability indicators
+- Vulnerability concept: a measure of possible future harm
+- IPCC definition
+  - "the degree to which a system is susceptible to, and unable to cope with, adverse effects of climate change, including climate variability and extremes. Vulnerability is a function of the character, magnitude, and rate of climate change and variation to which a system is exposed, its sensitivity, and its adaptive capacity"
+  - challenging to make this definition operational as defining concepts vague themselves & lack of clarity on how they are combined
+- Vulnerability indicators
+  - operational definition: transparent and rigorous methodology of a vulnerability assessment
+  - composite indicator: maps or aggregates a vector of observable variables to one scale theoretical variable
+  - 1st step: definition of what is to be indicated (e.g. the vulnerability of an entity to climate change)
+    - entities can usually be characterised as social-ecological systems
+    - define entity includes defining the system's boundaries
+  - 2nd step: selection of indicating variables
+    - to define the domain of the indicator function
+  - 3rd step: aggregation of the indicating variables
+  - two main challenges
+    - how to exactly define the vulnerable entity, especially by taking into account the wide political, institutional, economic & social context
+    - how to include the forward-looking aspect of vulnerability: predictive models
+      - indicator-based approaches: function simple & time-independent
+      - simulation-model-based approach: function complex & time-dependent
+- Available arguments to develop vulnerability indicators
+  - deductive arguments: based on existing theory (scientific knowledge)
+    - selection variables for social sub-system
+      - broad/global scale
+        - "root causes" of vulnerability
+        - 8 determinants of adaptive capacity introduced by the IPCC [@yoheIndicatorsSocialEconomic2002]
+      - local scale
+        - social capital
+        - Livelihood Vulnerability Index
+    - selection variables for bio-physical sub-system
+      - integrated assessment models: applied in combination with harm indicators through top-down simulation-model based approach (simulation possible future states of vulnerable systems & then evaluation based on harm indicators)
+      - e.g. Advanced Terrestrial Ecosystem Analysis and Modelling (ATEAM)
+    - aggregation variables: expert judgement -> but failure to reach consistent results across expert groups [@brooksDeterminantsVulnerabilityAdaptive2005]
+  - inductive arguments: based on data of both indicating variables & observed harm (statistical models)
+    - conditions for statistical modelling
+      - systems can be narrowly defined, using few variables
+      - sufficient data is available
+  - normative arguments: based on value judgment
+    - normative argument of equal weight frequently used in aggregation -> implies indicating variables as perfect substitutes
+    - how to deal with aggregation
+      - directly involve stakeholders
+      - not aggregate & use vector-valued indicators                             
+  - non-substantial arguments: based on data of indicating variables only (irrespective of knowledge on vulnerability)
+    - co-variation or multi-variation: to reduce the number of variables
+    - robustness: applying alternative methods of aggregation & evaluating the resulting rankings
+    - data availability
+- Fit for purpose
+  - assessing vulnerability
+    - in general, the purpose of indicators is to describe the state of affairs of a complex system in simple terms
+    - however actual use of indicators for policy-making usually vague (e.g. "to help preparing EU-wide adaptation policy")
+  - to identify mitigation targets
+    - not suitable for climate change due to global scope: earth system & global integrated assessment models are complex and cannot be collapsed into a simple indicator function
+  - to identify particularly vulnerable people, regions or sectors
+    - suitable at local scales, when systems can be narrowly defined by few variables
+    - not suitable for larger scales, rely on simulation-model based approaches instead
+  - to raise awareness of climate change
+    - not suitable, because of risk of communication
+  - to allocate adaptation funds to particular vulnerable regions, sectors or groups of people
+    - not suitable: countries should address the known issues by negotiating national priorities & developing issue-specific programs & projects
+  - to monitor the performance of adaption policy
+    - not suitable: 
+      - outcome indicators (successful outcome of adaptation policy): harm indicators, not vulnerability
+      - process indicators (monitor adaptation process itself): institutional stages, not vulnerability
+  - to conduct scientific research
+    - not suitable: lack of specificity creating confusion around the concept of vulnerability
+- Discussion
+  - logical steps defined by the IPCC:
+    - assess exposure with climate models
+    - assess sensitivity of the exposed entities with damage functions or impact models
+    - "correct" potential impacts by assessing adaptive capacity
+  - however, not necessarily adequate for all questions & contexts, thus should not be considered as a blue-print for assessing vulnerability
+  - blurred differences between vulnerability components: challenging to decide to which of these three components indicating variables should be attributed to
+  - lack of deductive arguments for aggregating indicating variables & lack of inductive arguments at larger scales
+- Clarify science-policy interface
+  - vulnerability indicators should only serve as high.level entry points to further more detailed information
+  - be explicit & specific about problems addressed
+  - transparency of the different types of arguments used in developing indicators
+  - normative arguments should be made explicit & be based on the preferences of relevant stakeholders
+  - background information to prevent misinterpretation
+  - should be updated regularly, based on new research findings
 
 ## Methodological approach
 
@@ -678,6 +757,39 @@ format: html
     - Preliminära grödarealer efter län och gröda (2018-2026): preliminary crop areas by county & crop
     - Preliminära grödarealer efter produktionsområde och gröda (2018-2026): preliminary crop area by production area & crop
     - Preliminära grödarealer efter storleksgrupp och gröda (2018-2026): preliminary crop area by size group & crop
+- Ekologisk produktion
+  - brukad jordbruksmark
+    - Ekologisk areal, andel ekologisk areal och antal företah med ekologiskt brukad jordbruksmark efter län och ägoslag (2005-2025): Organic farmland, percent of organic farmland, and number of farms with organically farmed agricultural land by county and type of ownership
+    - Omställda arealer och antal företag med ekologiskt odlade grödor efter län och gröda (2009-2025): Land converted to organic farming and the number of farms growing organic crops, by county & crops
+    - Ekologiskt brukad jordbruksmark efter kommun och ägoslag (2009-2025): Organically farmed agricultural land by municipality and type of ownership
+  - ekologisk trädgårdsodling
+    - Åkerareal och skattad skörd av ekologiskt odlade trädgårdsväxter på friland efter gröda (2009-2025): Cultivated area and estimated harvest of organically horticulture crops in open fields, by crop
+    - Växthusyta och skattad skörd av ekologiskt odlade trädgårdsväxter i växthus efter gröda (2009-2025): Greenhouse area and estimated yield of organically grown horticulture crops in greenhouses, by crop
+- Företag och företagare
+  - heltidsjordbruket i Sverige
+    - företag, areal och antal djur
+      - Areal och djur för heltidsjordbruk efter län (2005-2023): Land area and livestock for full-time farms by county
+      - Areal och djur heltidsjordbruk efter produktionsområde (2005-2023): Land area and livestock for full-time farms by production area
+      - Areal och djur för heltidsjordbruk efter storleksgrupp (2005-2023): Land area and livestock for full-time farms by size group
+      - Antal företag och areal for heltidsjordbruk efter län och brukningsform (2003-2023): Number of farms and area of full-time farming by county and type of farming
+      - Antal företag och areal för heltidsjordbruk efter produktionsområde och brukningsform (2003-2023): Number of farms and area of full-time farming by production area and type of farming
+      - Antal företag och areal för heltidsjordbruk efter storleksgrupp och brukningsform (2003-2023): Number of farms and area of full-time farming by size group and type of farming
+      - Antal företag och areal för heltdisjordbruk efter driftsinriktning och brukningsform (2003-2023): Number of farms and area of full-time farming by type of operation and farming system
+      - Antal företag och areal för heltidsjordbruk efter företagarens kön och ålder (2003-2023): Number of farms and area of full-time farming by farmer's gender and age
+      - Antal företag och areal för heltidsjordbruk efter driftsinrikning och företagarens kön (2003-2023): Number of farms and area of full-time farmingby type of operation and farmer's gender
+    - sysselsättning, kombinationsverksamhet och utbildning
+      - Sysselsättning i heltidsjordbruk efter län och sysselsättningsform (2003-2023): Employment in full-time agriculture by county and type of employment
+      - Sysselsättning i heltdisjordbruk efter produktionsområde och sysselsättningsform (2003-2023): Employment in full-time agriculture by production area and type of employment
+      - Sysselsättning i heltidsjordbruk efter storleksgrupp och sysselsättningsform (2003-2023): Employment in full-time agriculture by size group and type of employment
+      - Sysselsättning i heltidsjordbruk efter driftsinriktning och sysselsättningsform (2003-2023): Employment in full-time agriculture by type of operation and form of employment
+      - Sysselsättning i heltidsjordbruk efter företagsroll (2005-2023): Employment in full-time agriculture by business role
+      - Kombinationsverksamhet på heltidsjordbruk efter län (2007-2023): Mixed-farming operations on full-time farms by county
+      - Kombinationsverksamhet på heltidsjordbruk efter produktionsområde (2007-2023): Mixed-farming operations on full-time farms by production area
+      - Kombinationsverksamhet på heltidsjordbruk efter storleksgrupp (2007-2023): Mixed-farming operations on full-time farms by size group
+      - Kombinationsverksamhet på heltidsjordbruk after typ av kombinationsverksamhet (2007-2023): Mixed-farming operations on full-time farms by type of mixed activity
+      - Driftsledarens utbildning på heltidsjordbruk efter driftsinriktning och utbildningsnivå (2013-2023): Training of farm managers in full-time agriculture by type of operation and educational level
+      - Driftsledarens utbildning på heltidsjordbruk efter kön, ålder och utbildningsnivå (2013-2023): Training of farm managers in full-time agriculture by gender, age & level of education.
+      
 
 # WP2 - Mixture efficiency
 
