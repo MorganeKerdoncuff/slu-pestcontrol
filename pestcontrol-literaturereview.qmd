@@ -414,6 +414,129 @@ format: html
   - background information to prevent misinterpretation
   - should be updated regularly, based on new research findings
 
+@brooksDeterminantsVulnerabilityAdaptive2005
+- AIM: to determine national-level indicators of vulnerability and adaptive capacity to climate change
+- Conceptual framework:
+  - risk
+    - probabilistic
+      - probability of occurrence of a hazard that acts to trigger a disaster or series of events with an undesirable outcome (e.g. climatic hazards that trigger climate-related disasters)
+      - probability of a disaster or outcome, combining the probability of the hazard event with a consideration of the likely consequences of the hazard
+    - quantitative measures of outcome as proxies (e.g. data related to adverse socio-economic impacts as a retrospective measure of historical risk)
+  - vulnerability
+    - inconsistent relationships between vulnerability & sensitivity in the IPCC TAR
+      - glossary: vulnerability is "the degree to which a system is susceptible to, or unable to cope with, adverse effects of climate change, including climate variability and extremes. Vulnerability is a function of the character, magnitude, and rate of climate variation to which a system is exposed, its sensitivity, and its adaptive capacity" (sensitivity as component of vulnerability)
+      - in working group II: vulnerability is "the degree to which a system is susceptible to injury, damage, or harm (one part - the problematic or detrimental part - of sensitivity)", while sensitivity is "the degree to which a system is affected by or responsive to climate stimuli"
+    - context-dependent
+      - nature of the system (social, economic, political, environmental factors), type of hazard
+      - generic determinants (apply to most cases): poverty, health status, economic inequality, governance...
+      - specific determinants (particular context & hazard type): price particular food crop, number of storm shelters...
+  - adaptive capacity: time-dependent
+    - vulnerability to anticipated hazards in the medium to long-term depends on the system's ability to adapt in anticipation of those hazards
+    - vulnerability to hazards that may occur in the immediate future is related to a system's existing short-term coping capacity
+- Methodological approach
+  - literature review, expert judgement & data availability: shortlisting of 46 variables of generic vulnerability
+  - data treatment
+    - averaging at decade level
+    - data series: each datum represented a specific country in a specific decade
+  - correlation analysis
+    - mortality risk proxy series x vulnerability proxy series
+    - Monte-Carlo randomisation procedure according to @ebisuzakiMethodEstimateStatistical1997
+      - calculates probability that the correlation between a pair of series is exceeded when the data are randomised
+      - accounts for autocorrelation
+    - key indicators of vulnerability: significant correlation with mortality at the 10% level
+    - limitations: does not address the influence of hazard type, frequency & severity on mortality outcomes
+  - expert elicitation
+    - expert judgement to validate the empirical determination of the key indicators of vulnerability
+    - weighing & interpretation of indicators: multiple ranking exercises, distinction vulnerability/adaptive capacity
+  - construction composite indices
+    - limitations composite: high degree of data heterogeneity across countries, averaging
+    - composite vulnerability index
+      - for each key indicator, data divided into quintiles
+        - (+) correlation with mortality: country in 1st quintile assigned 1, country in 5th quintile assigned 5
+        - (-) correlation with mortality: country in 1st quintile assigned 5, country in 5th quintile assigned 1
+      - score 1-5, from low to high vulnerability
+  - sensitivity of country vulnerability rankings to different developmental contexts
+    - prioritise variable according to the strength of the correlation with mortality outcome
+    - issue independence: may over-emphasise the importance of factors represented by multiple related variables
+    - indicator rankings from the focus group converted to weights, themselves applied to key vulnerability indicators
+      - each set of rankings from focus group would generate an individual composite index
+      - country rankings compared across composite indices to assess the impact of different weightings in the results
+  - identify vulnerable countries
+    - combined assessment of country rankings in multiple composite indices based on a variety of weighing sets
+    - significantly vulnerable countries: top quintile in at least one of the composite index
+    - most vulnerable countries: top quintile for most of all alternative composite indices
+- Focus group analysis
+  - emerged distinction between short-term (months), medium-term (years) & long-term (decades)
+  - preferences for indicators linked to causation (e.g. access to sanitation, calorie intake) rather than outcomes (e.g. terminal life expectancy at birth)
+  - different strategies for ranking
+    - address vulnerability & adaptive capacity separately
+    - different sets of rankings for different vulnerability hazards and contexts (e.g. flood hazards vs coastal zone hazards in general)
+    - general rankings for all hazards
+- Variability in country vulnerability
+  - average difference in country rankings between pairs of composite indices as the sum of differences between rank country i in index m and rank country i in index n, divided by the number of countries represented in each index
+    - greatest differences for sets of weightings representing adaptive capacity to drought, crop failure & famine, & vulnerability to sea level rise
+    - smallest differences for sets representing generalised adaptive capacity, aggegated vulnerability & adaptive capacity
+  - assessments of vulnerability or adaptive capacity based on individual country rankings generally not appropriate, due to the variation in rank across indices & data availability issues
+
+@brunosoaresConceptualElementsClimate2012
+- AIM: to review conceptual elements regarded as critical in integrated assessments of climate change vulnerability
+- Vulnerability in climate change research
+  - biophysical approach: 
+    - addresses the vulnerability & degradation of environmental conditions & extrapolates these in terms of potential impacts on humans (e.g. distribution hazardous conditions, human occupancy in hazardous areas)
+    - "end-point" (outcome of impact minus adaptation): provide an understanding of climate change impacts & inform decision-making regarding the costs of adaptation vs costs of mitigation
+    - risk-hazard approach or impact-driven studies: focuses on magnitude, duration & impact of exposure
+  - social approach:
+    - socially constructed processes & structures (social, political, historical, economic) impacting on individuals/groups which can lead them to vulnerable conditions
+    - external side: perturbations & risks the system is subjected to
+    - internal side: system's own capacity to cope & respond to hazardous events
+    - "starting-point": contextual vulnerability as a dynamic state
+  - integrated approach: addresses both biophysical & social dimensions of vulnerability
+- Methodological approaches
+  - Climate Impact Assessment
+    - largely based on the biophysical perspective of vulnerability
+    - IPCC methodology conventional approach
+    - limitation global assessment environmental risks without taking into consideration local contexts
+  - Vulnerability Assessment
+    - more bottom-up approaches, based on integrated perspectives on vulnerability
+    - greater emphasis on stakeholder engagement, socio-economic scenarii, adaptation measures, decision-support tools & enhancement of adaptive capacity
+  - Adaptation Assessment
+    - focuses primarily on information requirements of stakeholders for policy development & facilitation of decision-making processes
+    - blurry line between adaptation & vulnerability assessments
+- Conceptual elements
+  - Coupled human-environment system (SES)
+    - identification attributes of concern within a system
+    - delimiting the geographical area
+    - limitation: proper understanding of the interactions between humans & the environment in the SES
+  - Key components of vulnerability
+    - exposure = the nature and degree to which a system is exposed to significant climatic variations
+    - sensitivity = the degree to which a system is affected, either adversely or beneficially, by climate variability or change
+    - adaptive capacity: ability of a system to adjust to climate change to moderate potential damages. to take advantage of opportunities, or to cope with the consequences
+    - relationships between components
+      - exposure can be external (vulnerability only intrinsic property of SES) or internal (vulnerability results from the interaction between the system & the exposure)
+      - vulnerability & adaptive capacity broadly perceived as negatively correlated
+      - main limitation in studies: lack of clarity on the dynamics between key components & their relative importance in generating/reducing vulnerability
+  - Multiple perturbations
+    - using past experiences of vulnerable situations & working backwards towards identifying the perturbations that led to those instances
+    - focus on particular unwanted outcomes & works backwards through the causal structures in order to identify the stresses most likely to generate those unwanted outcomes
+  - Scales of analysis
+    - human & environmental components of the coupled system may operate at disparate spatial, temporal or functional scales
+    - choice of analytical & methodological approaches (top-down or bottom-up) can lead to fundamentally different interpretations of the same phenomenon
+    - hierarchy theory can be used to scaling both biophysical & social data as ut allows the consideration of the various levels of spatial & temporal resolution from both dimensions of the coupled system
+  - Causal structures of vulnerability
+    - causality largely underpinned by political economy & political ecology research traditions emphasizing the role of socio-economic & political factors
+    - Pressure-and-Release model: attempt to explain the processes & mechanisms leading to people's vulnerability in a disaster risk context, based on three interconnected levels (root causes; dynamic pressures; unsafe conditions)
+  - Differential vulnerability: unequally distributed across the coupled system
+  - Engaging stakeholders
+    - knowledge co-production: requires considerable commitment towards stakeholder participation and interaction in the research process, interdisciplinarity & production of applicable knowledge
+    - limitations: lack of resources, political constraints, & the level of suitability between science & stakeholders' needs and expectations
+  - Historical & prospective analysis
+    - in vulnerability analyses, the starting point is to understand the current vulnerability of the coupled system
+    - for future vulnerability: projections and scenarios, either deterministic or probabilistic
+  - Dealing with uncertainty
+    - further exacerbated by spatial & temporal mismatches, non-linear processes & self-organisation within the coupled system
+    - assess-risk-of-policy framework: to support robust decision-making against currently known uncertainties
+    - need for more iterative, strategic and flexible mechanisms for the implementation & monitoring of adaptation measures & strategies against new knowledge, for instance by continuously monitor & evaluate the implementation of the adaptation strategy
+
 ## Methodological approach
 
 @Agrowise
