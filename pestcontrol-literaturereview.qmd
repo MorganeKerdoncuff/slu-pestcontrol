@@ -245,7 +245,9 @@ format: html
 
 # WP1 - Vulnerability analysis
 
-## Vulnerability concept
+## Conceptual framework
+
+### General - climate change
 
 @smitAdaptationAdaptiveCapacity2006
 - AIM: review the concept of adaptation of human communities to global change in the context of adaptive capacity and vulnerability
@@ -536,6 +538,87 @@ format: html
     - further exacerbated by spatial & temporal mismatches, non-linear processes & self-organisation within the coupled system
     - assess-risk-of-policy framework: to support robust decision-making against currently known uncertainties
     - need for more iterative, strategic and flexible mechanisms for the implementation & monitoring of adaptation measures & strategies against new knowledge, for instance by continuously monitor & evaluate the implementation of the adaptation strategy
+
+@janssenScholarlyNetworksResilience2006
+- AIM: bibliometric analysis of the knowledge domains resilience, vulnerability & adaptation in the research on the human dimensions of global environmental change between 1967 & 2005
+- Resilience "determines the persistence of relationships within a system and is a measure of the ability of these systems to absorb change of state variable, driving variables, and parameters, and still persist" [@hollingResilienceStabilityEcological1973]
+- Vulnerability: "the characteristics of a person or group in terms of their capacity to anticipate, cope with, resist, and recover from the impact of a natural hazard. It involves a combination of factors that determine the degree to which someone's life and livelihood is put at risk by a discrete and identifiable event in nature or in society" [@blaikieRiskII2nd2014]
+- Adaptation: "adjustment in ecological, social, or economic systems in response to actual or expected climatic stimuli and their effects or impacts. This term refers to changes in processes, practices, or structures to moderate or offset potential damages or to take advantage of opportunities associated with changes in climate. It involves adjustments to reduce the vulnerability of communities, regions, or activities to climatic change and variability" [@mccarthyClimateChange20012001]
+
+### Agriculture
+
+@darnhoferAssessingFarmsSustainability2010
+- AIM: to conceptualise the farm as a multiscalar, complex and dynamic system from the resilience perspective
+- Farming system resilience
+  - Nature of change
+    - large number of decisions made by many individual agents (farmers, policy makers, consumers) in response to their preferences & perceptions of their contexts -> complex interactions making future developments unpredictable
+    - long periods of gradual change & relative stability, interrupted by shorter, episodic disturbances that can reconfigure the entire system (shocks)
+    - different types of changes according to speed & predictability
+      - stress: enduring pressure, predictable to some extent (e.g. agricultural intensification)
+      - shock: sudden disruption (e.g. 1970s oil price crises)
+  - Individual farm system within broader farming system
+    - farm unit
+      - the farmer: social & cultural capital including mental models, preferences, goals, abilities...
+      - the physical farm: natural & economic capital including land, animals, crops, building, finances...
+    - various subsystems semi-autonomous: long-term adaptive cycle with mutual influences between spatial scales and other domains - *or how to maintain the capitalist system by sustaining its recurring crises*
+      - exploitation phase: knowledge-building & market development
+      - conservation: expansion, intensification & exploitation until market crises (neo-liberal reforms)
+      - release: concurring shocks exposing the vulnerability of the system
+      - reorganisation: regulations, policymaking (*et c'est reparti pour un tour*)
+    - international food system
+      - ecological domain: balance pests/beneficial insects, water cycle
+      - social domain: norms, expectation urban population
+      - economic domain: market pressures, quality standards
+    - subsystems evolve at different speeds, potential temporal & spatial mismatches (e.g. rapid shift in consumer preferences following food-safety crisis vs slow erosion genetic material breeds & cultivars)
+- Challenges for farm management
+  - what combination of strategies is most likely to allow a farm to successfully navigate change?
+  - persistence, safe for relative stable states (e.g. exploitation, conservation)
+    - stress: exploit current strengths & focus on efficiency
+    - shock: absorb without initiating major changes
+  - adaptation, usually needed in times of global crises (e.g. release, reorganisation)
+    - stress: adjust by reconfiguring resources or starting new related activities
+    - shock: transform into a fundamentally new system (e.g. diversification activities previously considered as beyond the realm of farming)
+  - trade-offs between attributes associated with stability (e.g. yield production) & those required for transformation (e.g. crop diversity)
+- Crucial role of the farmer
+  - day-to-day management shaped by economic framework, social norms, local agroecosystem & farm structure, but in the end determined by the farmer's perceptions, preferences & risk aversion
+  - farmers emphasize social components (e.g. family needs & satisfaction) as key factors in their choices regarding production methods & farm strategy
+  - transformative resilience: ability of farmers, facilitators and agricultural policy to deliberately steer a farming system away from a tipping point into configurations where shocks can be buffered
+  - different interpretations of ecological linkages according to farmers' mental structures and material circumstances
+- Assessing resilience of individual farms
+  - challenge: how to convert the abstract & multidimensional concept of resilience into applicable measures to guide adaptive transformations
+  - approach: develop a set of surrogates (indicators) addressing the multiple aspects that contribute to the resilience of farms
+  - temporal hurdle: surrogates may change as the farm evolves
+    - how to capture dynamics of change & unknown prospects
+    - ask whether the farm transforms into a less or more sustainable and resilient orientation rather than assess whether the farm is fit at a specific moment in time
+  - spatial hurdle: surrogates may be place dependent
+    - according to national policies & decision-making (liberal systems, subsidies)
+    - farm resilience cannot be assessed *per se* but according to its current ecological, economic & political contexts
+  - human hurdle: how as same set of surrogates can have different interpretations
+    - farm structure in itself does not reflect the complexity of farmers' decision-making, goals & preferences
+    - farm is a product of
+      - past history (path dependence)
+      - time lags (learning processes, measure implementations)
+      - unintended consequences of past choices
+      - limitation of current economic & social environment
+    - participatory approach necessary to establish & assess resilience surrogates prior to a "remote assessment" of scientists
+- General rules from the ARGOS program (Agriculture Research Group On Sustainability, New Zealand)
+  - take a broad "big picture" view of threats, and opportunities, and the quality of ouctomes from different choices
+  - establish and heed far-reaching & accurate information networks to provide accurate & early warning of impending crises
+  - build trust among stakeholders in the information provided about threats, need for change and viable options for change
+  - consider the most complete set of choices, including those beyond the current experience of farmers & agricultural process professionals
+  - use all forms of knowledge to identify & realise better choices
+  - use flexible planning structures & processes, & active networks to support choice making and putting the choices into action
+  - build a strong infrastructure around farming families for learning & support, exchange of knowledge & promotion of access to resources
+  - foster a strong sense of purpose, place & belonging to a local, national & international community to strengthen the determination to persist or to transition
+  - build confidence & optimism among individual farmers & their industry
+  - squarely confront change when needed, tempered by realism & steadiness to prevent panic
+  - build strong leadership of the local community or industry to negotiate risk & change, build confidence in grassroots participants, inform on viable options...
+  - learn to live with uncertainty, admit mistakes, and try again if an innovation is not working at first try
+  - ensure equitable & rapid access to resources
+    
+![](literature/darnhoferAssessingFarmsSustainability2010_1.png)
+
+@meinkeAdaptationScienceAgriculture2009
 
 ## Methodological approach
 
@@ -882,14 +965,14 @@ format: html
     - Preliminära grödarealer efter storleksgrupp och gröda (2018-2026): preliminary crop area by size group & crop
 - Ekologisk produktion
   - brukad jordbruksmark
-    - Ekologisk areal, andel ekologisk areal och antal företah med ekologiskt brukad jordbruksmark efter län och ägoslag (2005-2025): Organic farmland, percent of organic farmland, and number of farms with organically farmed agricultural land by county and type of ownership
+    - Ekologisk areal, andel ekologisk areal och antal företag med ekologiskt brukad jordbruksmark efter län och ägoslag (2005-2025): Organic farmland, percent of organic farmland, and number of farms with organically farmed agricultural land by county and type of ownership
     - Omställda arealer och antal företag med ekologiskt odlade grödor efter län och gröda (2009-2025): Land converted to organic farming and the number of farms growing organic crops, by county & crops
     - Ekologiskt brukad jordbruksmark efter kommun och ägoslag (2009-2025): Organically farmed agricultural land by municipality and type of ownership
   - ekologisk trädgårdsodling
     - Åkerareal och skattad skörd av ekologiskt odlade trädgårdsväxter på friland efter gröda (2009-2025): Cultivated area and estimated harvest of organically horticulture crops in open fields, by crop
     - Växthusyta och skattad skörd av ekologiskt odlade trädgårdsväxter i växthus efter gröda (2009-2025): Greenhouse area and estimated yield of organically grown horticulture crops in greenhouses, by crop
 - Företag och företagare
-  - heltidsjordbruket i Sverige
+  - Heltidsjordbruket i Sverige
     - företag, areal och antal djur
       - Areal och djur för heltidsjordbruk efter län (2005-2023): Land area and livestock for full-time farms by county
       - Areal och djur heltidsjordbruk efter produktionsområde (2005-2023): Land area and livestock for full-time farms by production area
@@ -912,7 +995,29 @@ format: html
       - Kombinationsverksamhet på heltidsjordbruk after typ av kombinationsverksamhet (2007-2023): Mixed-farming operations on full-time farms by type of mixed activity
       - Driftsledarens utbildning på heltidsjordbruk efter driftsinriktning och utbildningsnivå (2013-2023): Training of farm managers in full-time agriculture by type of operation and educational level
       - Driftsledarens utbildning på heltidsjordbruk efter kön, ålder och utbildningsnivå (2013-2023): Training of farm managers in full-time agriculture by gender, age & level of education.
-      
+  - Jordbruksföretag och jordbruksföretagare
+    - Jordbruksföretag och areal efter storleksgrupp och brukningsform (2007-2025): Farms and agricultural area by size group & type of farming
+    - Jordbruksföretag och areal efter storleksgrupp och företagskategori (2007-2025): Farms and agricultural area by size group & farm category
+    - Jordbruksföretag och areal efter driftsinriktning, företagarens kön och ålder samt brukningsform (2003-2025): Farms and agricultural area by type of operation, farmer's gender and age, and farming system
+    - Jordbruksföretag och areal efter län, brukningsform och företagskategori (2007-2025); Farms and agricultural area by county, type of farming, & farm category
+    - Jordbruksföretag och areal efter län och storleksgrupp åkermark (1981-2025): Farms and agricultural area by county & size class of arable land
+    - Jordbruksföretag och areal efter län och storleksgrupp jordbruksmark (2005-2025): Farms and agricultural area by county and size class of agricultural land
+    - Jordbruksföretag och areal efter län och företagarens kön och ålder (1996-2025): Farms and agricultural area by county, and by farmer's gender and age
+    - Jordbruksföretag och areal efter produktionsområde, brukningsform och företagskategori (2007-2025): Farms and agricultural area by production area, type of farming and farm category
+    - Jordbruksföretag och areal efter produktionsområde och storleksgrupp åkermark (2003-2025): Farms and agricultural area by production area and size class of arable land
+    - Jordbruksföretag och areal efter produktionsområde och storlekshrupp jordbruksmark (2005-2025): Farms and agricultural area by production area and size class of agricultural land
+    - Jordbruksföretag och areal efter produktionsområde och företagarens kön och ålder (2003-2025): Farms and agricultural area by production area and farmer's gender and age
+    - Jordbruksföretag efter kommun och storleksgrupp (1981-2025): Farms by municipality and size group
+  - Jordbruksföretagens kombinationsverksamheter
+    - Antal företag med kombinationsverksamhet efter län och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by county and type of operation
+    - Antal företag med kombinationsverksamhet efter produktionsområde och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by production area and type of operation
+  - Antal företag med kombinationsverksamhet efter storleksgrupp och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by size class and type of operation
+     - Antal företag med kombinationsverksamhet efter driftsinriktning och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by type of operation and type of operation
+     - Antal företag med kombinationsverksamhet efter andel av företagets omsättning och typ av versksamhet (2007-2023): Number of companies with mixed-farming operations by share of the company's revenue and type of operation
+  - Svensk typologi
+    - Jordbruksföretagens driftsinrikning efter län (1984-2025): Farm's operation type by county
+    - Jordbruksföretagens driftsinrikning efter produktionsområde (1984-2025): Farm's operation by production area
+- Jordbrukets ekonomi  
 
 # WP2 - Mixture efficiency
 
