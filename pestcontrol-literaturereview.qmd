@@ -619,6 +619,43 @@ format: html
 ![](literature/darnhoferAssessingFarmsSustainability2010_1.png)
 
 @meinkeAdaptationScienceAgriculture2009
+- AIM: to develop a conceptual framework ensuring broad-based scientific input and feedback to increase the adaptive capacity of agriculture
+- Adaptation science: 
+  - process of identifying & assessing threats, risks, uncertainties & opportunities that generate the information, knowledge, & insight required to effect changes in systems to increase their adaptive capacity & performance
+  - solution-oriented, scientific endeavour in the global agenda to facilitate adaptation actions
+- Risk management & adaptation at different scales
+  - science input demand often broad, general & vague vs supply narrow, specific & precise
+  - increase scientific relevance by embedding approaches within context-specific & multi-stakeholder dialogues
+  - proactive adaptation process: quantitative knowledge about the function, use & consequences of enabling & transformational approaches & technologies complementary to existing empirical knowledge
+- Synergy between knowledge & action by facilitating communication
+  - adaptation cycle
+    - 1/understand the existing system & scope possible changes to norms & values
+    - 2/identify likely core issues & decision criteria (who, what, when)
+    - 3/assess impacts & trends, including their uncertainties
+    - 4/evaluate if impacts matter
+    - 5/assess the adaptation options, their broader consequences & links
+    - 6/design & evaluate implementation options
+  - feedback needed at each step of the cycle
+  - outcomes-focused models embedded in participatory & adaptive governance & decision-making processes
+- Modelling, systems thinking & operational risk management
+  - negotiation process for participants to have a common understanding of the system's boundaries -> draw attention to contested norms & values
+  - evaluate effectiveness of potential innovations at various levels of integration
+  - agricultural typical examples of complex adaptive systems
+    - order emerges rather than being predetermined
+    - history of the system largely irreversible
+    - the system's future can only be predicted probabilistically
+  - identify the leverage points where incremental or transformative intervention can be supported by an adaptive policy environment
+- Bridge between practice, policy & society
+  - technical innovations could provide partial solutions for most sustainable production, but need to be assessed against their broader biological, economic & social consequences
+  - social capital:
+    - bonding: interactions characterised by personal trust & reciprocity within homogeneous social networks
+    - bridging: interactions characterised by trust & reciprocity that extends beyond homogeneous social networks to members of heterogeneous social networks
+    - linking: facilitates access to resources necessary to implement collective action
+  - multi-scale modelling
+    - upscaling from an understanding of crop physiological responses to enterprise-scale options
+    - downscaling from an understanding of global environmental conditions to farmers income and the long-term sustainability of their resource base
+
+![](literature/meinkeAdaptationScienceAgriculture2009_1.jpg)
 
 ## Methodological approach
 
@@ -804,6 +841,66 @@ format: html
   - Discriminant Analysis (DA) to investigate relationships between groups & explanatory variables
     - minimises number of important indicators & highlights most relevant elements among a large number of associated sub-components within a collection of uncorrelated variables
 
+@dongNovelMethodQuantitatively2015
+- AIM: to develop a quantitative assessment method for agricultural vulnerability under climate change according to IPCC's definition of vulnerability
+- Conceptual model:
+  - exposure degree: range of subjects exposed to influencing events such as climate change & variability
+  - vulnerability = sensitivity/(adaptive capacity x exposure degree)
+  - agricultural vulnerability: degree of impact to agriculture caused by climatic factors that change under climate change
+    - unit vulnerability = crops' basic attribute under climate change = sensitivity/adaptive capacity
+    - regional vulnerability (upscaling) = unit variability x exposure degree
+    - indicator: yield change
+      - crop yield = crop trend yield (productivity developing level) + fluctuating yield (affected by fluctuation of climatic elements)
+      - basic period: before climate mutated, relatively stable climatic environment (reference)
+      - study period: after climate mutation, when climate change is the most outstanding major uncertainty
+    - sensitive yield = increase or decrease in the amount of crop yield with climate change
+    - adaptive yield = difference between crop yield & sensitive yield
+    - exposure degree = ratio crop planting area in study period & average planting area in basic period
+  - agricultural vulnerability = sensitive yield/(adaptive yield x exposure degree) = negative climatic yield/(adaptive yield x exposure degree)
+- Methodological approach
+  - 1/determine basic period & survey period: Mann-Kendall mutation testing method
+  - 2/calculate yearly trend & climatic yields in basic period & establish relational equations of climatic yield with climatic variables (precipitation, temperature)
+  - 3/simulate yearly climatic yield in the study period, and calculate sensitive yield (as negative climatic yield) & adaptive yield
+  - 4/calculate exposure degree
+  - 5/calculate vulnerability from unit vulnerability and exposure degree
+  - 6/assess vulnerability level in group levels (0 to 0.3 for not vulnerable to intensively vulnerable)
+
+@alexandridisModelsNaturalPest2021
+- AIM: to evaluate the ability of existing models to predict the interactions between natural enemies, pests and crops in response to land-use changes across agroecosystems
+- Correlative models
+  - main objective: to explore patterns and test general theories that relate natural pest control to surrounding land use, at scales ranging from fields to regions
+  - model types
+    - relationships between predictor & response variables: multiple linear regression, mixed-effects models
+    - limited assumptions: generalised linear & additive models
+    - specialised techniques adapted for temporal (autoregression), spatial (maximum entropy) & community (redundancy analysis) modelling
+    - structural equation models: interface between correlative and mechanistic modelling
+  - general expectations: landscape compositional and/or configurational complexity surrounding a field enhances pest suppression
+    - landscape simplification into crop monocultures is expected to enhance specialist pest abundance & dispersal, by increasing the density of host plants
+    - compositional & configurational diversity expected to enhance the activity of natural enemies (limiting resource provision & continuity)
+  - findings however inconsistent: correlative approaches for predictive purposes require the development of distinct models for systems of interest
+  - limitations: assumptions stationarity of ecological processes & lack of adaptability, which may not hold in novel or non-equilibrium contexts
+- Mechanistic models
+  - different approaches
+    - specific: aims at a highly realistic representation of observed crop-pest-enemy combinations
+      - larger number of processes & significant amounts of data
+      - e.g. natural pest control model of Senegalese grasshopper along a latitudinal transect included crop & natural vegetation; pest population dynamics; competition with another grasshopper; predation by invertebrates & birds; climatic influences; pesticide treatment
+    - theoretical: aims at increasing general understanding and predicting fundamental aspects of pest control dynamics across many systems
+      - fewest processes per model, minimum model specification, no parameter estimation
+      - limitation: lack an explicit or implicit representation of space, creating mismatches between space averaging (e.g. area-density relationships) & observed phenomena, & limiting interpretation for policy making
+  - Components, spatiotemporal scale & resolution
+    - trade-offs between
+      - formulation flexibility: ability to represent different processes
+      - analytical tractability: ease of analysing model output
+      - algorithmic efficiency: frugality in the use of computational resources
+    - spatially explicit & stochastic representations particularly susceptible: lack analytical tractability, trade off formulation flexibility for algorithmic efficiency
+- Capabilities and limitations of mechanistic modelling
+  - explicit representation of causative agents of observed ecological change is a necessary, although not sufficient, condition towards extrapolations in space and time that are more reliable than those based purely on correlation
+  - less likely to produce the right outcomes for the wrong reasons (unrealistic representations easier to detect)
+- Towards general predictive models
+  - 
+
+
+
 ### AgroExplore
 
 @wirehnAssessingAgriculturalVulnerability2017
@@ -982,7 +1079,7 @@ format: html
       - Antal företag och areal för heltidsjordbruk efter storleksgrupp och brukningsform (2003-2023): Number of farms and area of full-time farming by size group and type of farming
       - Antal företag och areal för heltdisjordbruk efter driftsinriktning och brukningsform (2003-2023): Number of farms and area of full-time farming by type of operation and farming system
       - Antal företag och areal för heltidsjordbruk efter företagarens kön och ålder (2003-2023): Number of farms and area of full-time farming by farmer's gender and age
-      - Antal företag och areal för heltidsjordbruk efter driftsinrikning och företagarens kön (2003-2023): Number of farms and area of full-time farmingby type of operation and farmer's gender
+      - Antal företag och areal för heltidsjordbruk efter driftsinrikning och företagarens kön (2003-2023): Number of farms and area of full-time farming by type of operation and farmer's gender
     - sysselsättning, kombinationsverksamhet och utbildning
       - Sysselsättning i heltidsjordbruk efter län och sysselsättningsform (2003-2023): Employment in full-time agriculture by county and type of employment
       - Sysselsättning i heltdisjordbruk efter produktionsområde och sysselsättningsform (2003-2023): Employment in full-time agriculture by production area and type of employment
@@ -1017,7 +1114,49 @@ format: html
   - Svensk typologi
     - Jordbruksföretagens driftsinrikning efter län (1984-2025): Farm's operation type by county
     - Jordbruksföretagens driftsinrikning efter produktionsområde (1984-2025): Farm's operation by production area
-- Jordbrukets ekonomi  
+- Jordbrukets ekonomi
+  - Jordbruksekonomiska undersökningen
+    - Totalt värde och medelvärde per företag för balans- och resultatposter samt indikatorer från JEU uppdatelat på driftsinriktning, riksområde och storleksgrupp (2014-2023): Total value and average per company for balance sheet and income statement items, as well as JEU indicators, by type of operation, region, and size class
+    - Genomsnittliga intäkter, kostnader och resultat i jord- och skogsbruk efter typgrupp/storleksklass och intäkts-/kostnadsslag (2005-2024): Average revenue, expenses, and profit in agriculture and forestry by category/size class and type of revenue/expense
+    - Genomsnittliga kalkylerade nuvärden/anskffningsvärden i jord- och skogsbruk efter typgrupp/storleksklass och värdeposter (2005-2024): Average calculated present values/acquisition values in agriculture and forestry by category/size class and value categories
+    - Genomsnittliga investeringar i jord- och skogsbruk efter typgrupp/storleksklass och investeringsposter (2005-2024): Average investments in agriculture and forestry by category/size class and investment categories
+    - Genomsnittliga arbetsinsats inom jord- och skogsbruk efter typgrupp/storleksklass och personalkategori (2005-2024): Average labor input in agriculture and forestry by category/size class and employee category
+    - Genomsnittliga arbetsinsats i årsarbetstider (AWU) efter typgrupp/storleksklass och personalkategori (1996-2024): Average work input in Annual Work Units (AWU) by category/size class and employee category
+    - Genomsnittlig areal per företag efter typgrupp/storleksklass och arealanvändning (1996-2024): Average area per farm by category/size class and land use
+    - Antal företag efter typgrupp/storleksklass (2018-2024): Number of companies by category/size class
+    - Genomsnittlig arbetsinsats i kombinationsverksamhet efter typgrupp/storleksklass och personalkategori (2014-2024): Average work input in mixed-farming operations by category/size class and employee category
+    - Genomsnittliga intäkter och kostnader i jord- och skogsbruk efter typgrupp/storileksklass och intäkts-/kostnadsslag (2005-2022; no more updated): Average revenues and expenses in agriculture and forestry by category/size class and type of revenue/expense
+    - Genomsnittliga kapitalkostnader och resultat i jord- och skogsbruk efter typgrupp/storleksklass och typ av kapitalkostnad/resultat (1996-2022; no more updated): Average costs of capital and earnings in agriculture and forestry by category/size class and type of cost of capital/earnings
+    - Genomsnittlig areal efter typgrupp/storleksklass och arealanvändning (1996-2017; no more updated): Average area by category/size class and land use
+  - Ekonomisk kalkyl för jordbrukssektorn (EAA)
+    - Ekonomisk kalkyl för jordbruket (EAA) (1990-2024): Economic accounts for agriculture
+    - Sammanfattande resultat från EAA, löpande priser (1990-2024): Summary results from the EAA, current prices
+    - Indikator A, B, och C, index 2019-2021 = 100 (1990-2024): Indicators A, B, et C, index 2019-2021 = 100
+    - Prognos och preliminära beräkningar av EAA samt volym-, pris- och värdeindex (2019-2025): Forecasts and preliminary estimates of EAA, volumes price, and value indices
+    - Stöd och ersättningar efter län och stödform, Msek (2019-2024): Subsidies and benefits by county and type of subsidies
+    - Utbetalade investeringsstöd, startstöd och epizootiersättningar efter län och stödform, Msek (2019-2024): Investment subsidies, start-up subsidies, and epizootic disease compensation paid out, by county and type of subsidies
+    - Produktionsvärden till producentpriser och stöd fördelat efter län, Msek (2013-2023): Production values at producer prices and subsidies by county
+    - Produktionsvärden till producentpriser och stöd fördelat efter driftsinriktning, Msek (2013-2023): Production values at producer prices and subsidies by type of operation
+    - Produktionsvärden till producentpriser och stöd fördelat efter storleksgrupp åkermark, Msek (2013-2023): Production values at produced prices and subsidies by group size of arable land
+  - Jordbrukarhushållens inkomster
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # WP2 - Mixture efficiency
 
