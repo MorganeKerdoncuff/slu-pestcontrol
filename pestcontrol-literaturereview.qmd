@@ -897,9 +897,113 @@ format: html
   - explicit representation of causative agents of observed ecological change is a necessary, although not sufficient, condition towards extrapolations in space and time that are more reliable than those based purely on correlation
   - less likely to produce the right outcomes for the wrong reasons (unrealistic representations easier to detect)
 - Towards general predictive models
-  - 
+  - anticipated trade-off between generality & realism among modelling strategies for biological populations
+  - model complexity has to be adjusted to the diverse socioecological settings of planned model applications & availability of knowledge & data
+  - contextually bound generalisations: 
+    - theoretical model applied to the defining properties of a smaller group of agroecosystems, i.e. focal organisms sharing key functional roles (dispersal, diet) & systems responding similarly to environmental change (e.g. landscape composition/configuration)
+    - similar to "minimum realistic model" in marine ecosystems or "dominant processes" concept in hydrological processes
+  - challenge to solve: link between model complexity & predictive performance
+    - qualitative mathematical modelling: can leverage available knowledge of experts & local stakeholders & address structural uncertainty
+    - quantitative model: better addresses non-linearities patterns & transient dynamics
 
+@fultonMultimodelApproachEngaging2015
+- AIM: to test and compare five different model types to inform policy-making in regional multiple use management
+- Management Strategy Evaluation framework: explicitly represents the resource, users & management feedback to model individual sectors or broad systems
+- Iterative model development with stakeholder engagement at each stage: 
+  - evolution in model complexity and focus as the problem becomes more defined & stakeholders gain a better understanding of what modelling can/cannot provide
+  - approach: develop a suite of simpler & more-rapidly deployed models, each covering different roles within the project
+- Conceptual models
+  - highlight the main drivers of a system and summarise our understanding of how the system works
+  - qualitative models for individual parts of the system (e.g. tourism drivers): 
+    - basis for discussion around the connections and concepts
+    - capture alternative understandings from different stakeholders
+  - combination with sociograms to highlight connections amongst human actors and build basic structure from more complex quantitative approaches (industry, shuttle, whole-of-system)
+- Toy models
+  - educational on how
+    - the modelling process works
+    - different model components can address specific concerns
+    - their interaction generates complexity
+    - models can clarify information
+  - general qualitative models to introduce a broad audience to specific concepts (e.g. stocks, flows, accumulation, feedback)
+    - "stocks and flow" model: practical demonstration of how intuition can lead to mistaken judgments & how models could be used as useful checks by people of all backgrounds
+    - feedback loop model: base for a large interactive workshop (e.g. tourism feedback model)
+- Industrial specific models
+  - detailed representation of a single component of the system, to address and provide an early analysis of a single sector or activity
+  - *Ningaloo Tourism Destination Model* (NTDM)
+    - "stocks and flow" model of relationships between tourism management & larger scale planning
+    - spatially explicit, interlinked several sub-models mainly covering socioeconomic factors & a few environmental factors
+    - allowed to assess the economic, social & environmental perspectives of different development & planning scenarios
+    - coupling with *Ecopath with Ecosim* shuttle model for deeper understanding of environmental implications
+  - *ELFSim*: spatially resolved fishing simulation model
+- Shuttle models
+  - incorporate the minimum number of core processes to provide sufficient understanding to conceive and develop a full problem description
+  - *ScenarioLab*: 
+    - system level toy model to provide a fully interactive modelling experience to non-expert modellers
+    - discussions helped to clarify the essential model features & allowed stakeholders to understand what could be asked of models
+  - *Ecopath with Ecosim* (EwE)
+    - food-web model including 13 human activities & 53 functional groups
+    - purpose
+      - extending the environmental impact analysis of the NTDM
+      - testing some of the management strategies initially developed during stakeholder workshops
+      - producing some initial food web level results
+- Whole-of-system model
+  - includes all information collected and addresses a comprehensive overview of stakeholders concerns
+  - agent based sociological system model (InVitro)
+  - 100 combinations of management strategies & contextual scenarios implemented in a 30 m x 30 m grid
+  - multivariate cluster analysis & PCA: eight major classes of outcomes
 
+![](literature/fultonMultimodelApproachEngaging2015_1.jpg)
+
+![](literature/fultonMultimodelApproachEngaging2015_2.png)
+
+@chaplin-kramerMeasuringWhatMatters2019
+- AIM: to articulate the information needs of key actors that shape agricultural landscapes at farm- and regional- scales for implementing conservation biocontrol strategies
+- Farmer objectives for pest control
+  - adoption stage: whether to invest in & rely on conservation biocontrol strategies
+    - mostly determined by objectives of profitability or risk reduction
+    - depends on farm ownership (for long-term perspectives), structure, size
+    - depends on farmers' perception on how biocontrol practices could instead spread other risks (diseases)
+  - design stage: identify actions, temporal & spatial frameworks to implement conservation biocontrol strategies
+    - objective: prevent pest problems before they start
+    - cost-effectiveness: lowest capital expense or mental strain
+  - intervention stage: planning the implementation as part of a larger integrated pest management strategy
+    - objective: contain a pest problem or keep pest populations below an economically relevant threshold
+    - adaptation on the way may happen depending on the efficiency of the methods
+  - evaluation stage: determine effectiveness of biocontrol strategies against economic & human investments
+- Public objectives for landscape management
+  - conservation groups: enhance biodiversity, ecosystem service delivery
+  - government: policy & regulatory responsibilities, national- and regional-scale planning
+  - consumers: general concerns about food safety, farm worker welfare, clean water
+- Measuring the right endpoints to support decision-making
+  - no consistent response of pest or enemy abundances to landscape composition alone [@karpCropPestsPredators2018]
+  - no strong evidence of a consistent benefit of habitat conservation at landscape-scale on yield
+  - insect abundance & crop yield may not be most suitable/relevant indicators
+    - many cofounding factors can affect crop yields (soil, climate, inputs, labor) or insect populations (climate, oscillary population dynamics) in field-based studies
+    - measuring total yield in terms of weight or number of fruits per plant or unit area may not be as relevant as marketable yield
+    - pest: measuring damage instead of insect abundance
+- New research agenda
+  - Farmer
+    - adoption: effectiveness of biocontrol strategies
+      - profitability: revenue-cost, cost-benefit analysis
+      - reduced risk of crop losses, reduced fluctuations in yield: outbreak frequency, pest abudance stability
+    - design: what composition & configuration of habitat improves pest control
+      - cost-effective, minimise pest problems: relative improvement in pest control
+    - intervention: when or if pesticide or other non biocontrol strategies should be implemented
+      - containing pest problem at minimum cost: pest-enemy ratio, pest suppression rate
+      - staying below critical threshold: economic injury level
+    - evaluation: effectiveness of specific biocontrol design & intervention
+      - reduced crop loss: pest damage
+      - increased revenue: yields, quality
+      - reduced cost: spray vs habitat management
+  - Conservation
+    - reduced environmental risks from pesticides: frequency/amount pesticide use
+    - enhance biodiversity & ecosystem services: relative indices of pest control, overlap other ES
+  - Government
+    - reduced human & environmental health risk from pesticide: frequency/amount pesticide use
+    - agritourism: improved aesthetics, ES
+    - productivity: production per unit effort or cost
+  
+    
 
 ### AgroExplore
 
