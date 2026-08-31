@@ -25,20 +25,12 @@ data/*
 
 # Figures (excludes all figures)
 outputs/*
-outreach/*
-illustrations/*
-*.png
-*.jpeg
 
 # Text output (excludes all rendered files)
 *.pdf
 *.html
 *.docx
 *.tex
-
-# Bibliography (exclude all bibtex files)
-*.bib
-*.json
 
 # Error monitoring
 *.log
