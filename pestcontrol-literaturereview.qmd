@@ -1003,7 +1003,101 @@ format: html
     - agritourism: improved aesthetics, ES
     - productivity: production per unit effort or cost
   
-    
+@rounsevellDevelopingQualitativeScenario2010
+- AIM: to review the methods of qualitative scenario storylines, their development & their application in environmental change assessment
+- Type scenarios
+  - Exploratory scenario storylines
+    - Intuitive-Logic Models: initially developed in the emerging Cold War, for the US Air Defence System Missile Command
+    - describe plausible, but alternative socioeconomic development pathways to compare across a range of circumstances (usually 20-100 years into future)
+    - coevolutionary stance: multiple assumptions about different development pathways lead to potentially very different outcomes over long-term horizons
+    - equifinality: different development pathways which lead to similar or converging outcomes
+    - example: IPCC Special Report on Emissions Scenarios (SRES)
+  - Normative scenario storylines
+    - *La Prospective* School: scenario framed around desired futures or outcomes
+    - description of the series of events & causal relationships that lead from the current conditions to the desired future
+    - policy scenarios: reflects the needs of policy to achieve desired outcomes over relatively short-time horizons
+    - examples: Convention on Biological Diversity, the MEA, EU's target of 20% renewable energy consumption
+  - BAU scenario storylines (conventional wisdom or extrapolations)
+    - used for short-term policy analysis to explore the consequences of relatively well-known, near-term changes in regulatory contexts
+    - assume that broader trends will have little influence over short-term horizons compared with policy making
+- Drivers and scenario logics in exploratory scenarios
+  - drivers: underlying causes of change, which derive from social, technological, economic, environmental & policy governance (STEEP)
+  - scenario logic: 
+    - seeks to establish internal consistency between the drivers relationships & assumptions underpinning the storyline
+    - matrix approach (e.g. IPCC SRES)
+      - 2 axes reflecting alternative future world orientations
+        - one axis: regional vs global strategies reflecting alternative visions of global connectivity & attitudes to geopolitical cooperation
+        - other axis: liberalised & free market vs more socially & environmentally focused
+      - wide ranges of scenarios along & between the axes, marker scenarios in the 4 quadrants
+- Participatory approaches
+  - (+) feed scenario storylines in sometimes unexpected ways, enhance legitimacy, can be a vehicle for consensus building & problem solving
+  - limitations: 
+    - potential lack of diversity among participating stakeholders
+    - differences in epistemologies, knowledge systems & perceptions
+    - problems with internal consistency: participant do not always have a complete mental model of the system, limiting the understanding of interrelationships & feedback
+  - Inconsistency analysis using Saaty rankings: pairwise comparison approach to control that individual qualitative statements of participating experts were consistent with all other statements made by the same expert in describing a scenario storyline [@abildtrupSocioeconomicScenarioDevelopment2006]
+  - Fuzzy cognitive mapping (FCM): support to develop more structured narratives, including better incorporation of important feedback & more explicit system description
+- Normative scenario approaches
+  - backcasting: identify events leading from the current situation to a desired outcome
+  - Bayesian belief networks:
+    - graphic representation of logical relationships between variables
+    - quantify strength relationships using conditional probabilities
+    - limitations:
+      - acyclic: additional networks required to incorporate temporal dynamics & feedback loops
+      - work best with discrete variables: integrating continuous environmental variables can be done using Bayesian hierarchical simulation-based modelling
+- Exploratory probabilistic futures
+  - most exploratory scenarios deterministic: 
+    - absolute values for each scenario parameter assumed from an interpretation of a single storyline description
+    - uncertainty not reflected in the parameter assumptions made for a given storyline
+  - conditional probabilistic futures
+    - quantify uncertainty ranges in scenario storyline assumptions using probability distributions functions (PDFs)
+    - Monte Carlo based sampling techniques can be used to generate quantitative scenarios of different variables from the PDFs
+- Main limitations
+  - absolute & relative knowledge uncertainties
+  - axiomatic preconceptions (e.g. positive relationship between liberalisation & innovation *lol*)
+  - semantics influence storyline interpretations (e.g. "regional" scale)
+  - validating scenario assumptions (cannot test assumptions of future conditions which have yet to happen)
+  - judgment
+    - transparency: set paradigms, ideologies, personal values & beliefs that can influence scenario interpretations should be made explicit
+    - quantitative modelling: should be flexible enough to quantify judgment-related variations within alternative scenarios
+  - support to policy making
+    - exploratory scenario storylines: static representations of alternatives, not suited to represent to response (adaptation) of people to changing circumstances
+    - limited documentation of the scenario storyline development process
+    - lack of clarity about the purpose of a scenario exercise
+- Method comparison according to saliency (relevance for decision makers), credibility (scientific evidence) & legitimacy (unbiased incorporation of divergent values)
+  - exploratory
+    - saliency: Medium (depends on focus)
+    - credibility: Medium (the most applied method)
+    - legitimacy: Low-Medium (strongly depends on analysts' beliefs)
+  - normative
+    - saliency: High (focus on specific desired futures)
+    - credibility: Low-Medium (challenging to address uncertainties)
+    - legitimacy: Low-Medium (strongly depends on analysts' scenario perception)
+  - business-as-usual
+    - saliency: High (directly policy relevant)
+    - credibility: Low (only based on current processes)
+    - legitimacy: Medium-High (based on current values & beliefs)
+  - participatory
+    - saliency: High (relevant stakeholders)
+    - credibility: Low-Medium (limitation internal consistency)
+    - legitimacy: Medium-High (stakeholder representation)
+  - probabilistic
+    - saliency: Low-Medium (high complexity, hard to communicate)
+    - credibility: High (formal representation of uncertainty)
+    - legitimacy: Low-Medium (potential communication issues)
+  - scaling methods
+    - saliency: High (increased resolution enhances relevance)
+    - credibility: Low-High (depends method used)
+    - legitimacy: Low-Medium (depends stakeholder acceptance of methods)
+- Perspectives
+  - the influence of personal beliefs such as political ideologies should be made more explicit in scenario development & reported transparently to improve credibility
+  - alternative pathways that result in the same future outcomes should be discussed & compared
+  - better methods to validate scenario assumptions (spatial & temporal analogs) would enhance the credibility of scenario storylines
+  - further consideation needs to be given to the uncertainty related to storyline assumptions and its implications for quantitative scenarios
+  - stakeholder engagement should be used to better define normative visions of future worlds & the alternative development pathways to achieve these visions
+  - participatory methods merit wider application
+
+![](literature/rounsevellDevelopingQualitativeScenario2010_1.png)
 
 ### AgroExplore
 
