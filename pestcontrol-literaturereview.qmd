@@ -1253,11 +1253,11 @@ format: html
   - Höstsådda arealer
     - Höstsådda arealer efter län och gröda (2002-2025): Areas sown in autumn by county & crop
     - Höstsådda arealer efter produktionsområde och gröda (2002-2025): Areas sown in autumn by production area & crop
-    - Höstsådda arealer avsedda att odlas eklogiskt i Sverige efter gröda (2005-2025): Areas sown in autumn for organic cultivation by crop
+    - Höstsådda arealer avsedda att odlas ekologiskt i Sverige efter gröda (2005-2025): Areas sown in autumn for organic cultivation by crop
   - preliminära arealer
-    - Preliminära grödarealer efter län och gröda (2018-2026): preliminary crop areas by county & crop
+    - Preliminära grödarealer efter län och gröda (2018-2026): Preliminary crop areas by county & crop
     - Preliminära grödarealer efter produktionsområde och gröda (2018-2026): preliminary crop area by production area & crop
-    - Preliminära grödarealer efter storleksgrupp och gröda (2018-2026): preliminary crop area by size group & crop
+    - Preliminära grödarealer efter storleksgrupp och gröda (2018-2026): Preliminary crop area by size group & crop
 - Ekologisk produktion
   - brukad jordbruksmark
     - Ekologisk areal, andel ekologisk areal och antal företag med ekologiskt brukad jordbruksmark efter län och ägoslag (2005-2025): Organic farmland, percent of organic farmland, and number of farms with organically farmed agricultural land by county and type of ownership
@@ -1306,9 +1306,9 @@ format: html
   - Jordbruksföretagens kombinationsverksamheter
     - Antal företag med kombinationsverksamhet efter län och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by county and type of operation
     - Antal företag med kombinationsverksamhet efter produktionsområde och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by production area and type of operation
-  - Antal företag med kombinationsverksamhet efter storleksgrupp och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by size class and type of operation
-     - Antal företag med kombinationsverksamhet efter driftsinriktning och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by type of operation and type of operation
-     - Antal företag med kombinationsverksamhet efter andel av företagets omsättning och typ av versksamhet (2007-2023): Number of companies with mixed-farming operations by share of the company's revenue and type of operation
+    - Antal företag med kombinationsverksamhet efter storleksgrupp och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by size class and type of operation
+    - Antal företag med kombinationsverksamhet efter driftsinriktning och typ av verksamhet (2007-2023): Number of companies with mixed-farming operations by type of operation and type of operation
+    - Antal företag med kombinationsverksamhet efter andel av företagets omsättning och typ av versksamhet (2007-2023): Number of companies with mixed-farming operations by share of the company's revenue and type of operation
   - Svensk typologi
     - Jordbruksföretagens driftsinrikning efter län (1984-2025): Farm's operation type by county
     - Jordbruksföretagens driftsinrikning efter produktionsområde (1984-2025): Farm's operation by production area
@@ -1337,14 +1337,37 @@ format: html
     - Produktionsvärden till producentpriser och stöd fördelat efter driftsinriktning, Msek (2013-2023): Production values at producer prices and subsidies by type of operation
     - Produktionsvärden till producentpriser och stöd fördelat efter storleksgrupp åkermark, Msek (2013-2023): Production values at produced prices and subsidies by group size of arable land
   - Jordbrukarhushållens inkomster
+    - Förvärvsinkomster för företagare och person gift/sambo med företagaren (1999-2024): Income from business activities for business owners or partners
+    - Justerade inkomster för företagare gift/sambo/ensamstående samt gift/sambo med företagaren (2007-2024): Adjusted income for business owners according to marital status
+    - Hushållsinkomster fördelat på inkomstslag och transfereringar. Samtliga jordbrukarhushåll, hushåll med heltidsjordbruk respektive småbruk (2014-2024): Household income by income type and transfers (all farming, full-time farming, small-scale farming)
+    - Hushållsinkomster efter transfereringar. Samtliga jordbrukarhushåll, hushåll med heltidsjordbruk respektive småbruk (2014-2024): Household income after transfers
+    - Justerad och samlad näringsinkomst. Samtliga jordbrukarhushåll, hushåll med heltidsjordbruk respektive småbruk (2011-2024): Adjusted and aggregated farm incomes
+    - Hushållsinkomster efter inkomstslag (1999-2024): Household income by type of income
+    - Förvärvsinkomster efter inkomstslag (1999-2024): Earned income by type of income
+    - Näringsinkomster efter inkomstslag (2006-2024): Business income by type of income
+    - Antal hushåll och hushållsmedlemmar (1999-2024): Number of households & household members
+- Konsumtion av livsmedel
+  - Direktkonsumtion av vara (1960-2024): Direct consumption of goods
+  - Totalkonsumtion av vara (1960-2025): Total consumption of goods
+  - Energitillförsel efter vara (1960-2024): Energy supply by commodity
+  - Näringstillförsel efter vara och näringsämne (1960-2024): Nutrient supply by commodity and nutrient
+- Lantbrukets djur (livestock)
+- Priser och prisindex
+- Skörd av jordbruksväxter
+  - Hektar- och totalskörd efter län och gröda (1965-2025): Hectares and total yield by county and crop
+  - Hektar- och totalskörd efter produktionsområde och gröda (1965-2025): Hectares and total yield by production area and crop
+  - Arealfördelning av slåtter- och betesvall efter län och typ av vall (2003-2025): Distribution of hay and pasture land by county and type of pasture
+  - Arealfördelning av slåtter- och betesvall efter produktionsområde och typ av vall (2002-2025): Distribution of hay and pasture land by production area
+  - Obärgade arealer av grödarealer efter län och gröda (2002-2025): Unharvested areas of croplands by county and crop
+  - Obärgade arealer av grödarealer efter produktionsområde och gröda (2002-2025): Unharvested areas of croplands by production area and crop
+  - Areal skördad som grönfoder av slutlig grödareal efter län och gröda (2002-2025): Area harvested as green forage from the final crop area, by county and crop
+  - Areal skördad som grönfoder av slutlig grödareal efter produktionsområde och gröda (2002-2025): Area harvested as green forage from the final crop area, by production area and crop
+  - Normskörd
+    - Normskörd efter län, gröda och typ av normskörd (2003–2026): Standard yields by county, crop & standard yield type
+    - Normskörd efter produktionsområde, gröda och typ av normskörd (2003–2026): Standard yields by production area, crop & standard yield type
+    - Normskörd efter skördeområde och gröda (2003-2026): Standard yields by harvest area and crop
 
-
-
-
-
-
-
-
+ 
 
 
 
