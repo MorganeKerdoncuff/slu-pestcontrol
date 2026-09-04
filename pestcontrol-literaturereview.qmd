@@ -1243,7 +1243,7 @@ format: html
 @Jordbruksverket
 - Arealer
   - riket/län/kommun
-    - Åkermarkens användning och antal företag med åkermark efter län och gr¨da (1981-2025): Use of arable land and number of farms with arable land by county & crop
+    - Åkermarkens användning och antal företag med åkermark efter län och gröda (1981-2025): Use of arable land and number of farms with arable land by county & crop
     - Åkermarkens användning efter kommun och gröda (1981-2025): Use of arable land by municipality & crop
   - produktionsområde
     - Jordbruksmarkens användning och antal företag med jordbruksmark efter produktionsområde och gröda (2001-2025): Use of agricultural land & number of holdings with agricultural land by production area and crop
