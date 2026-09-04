@@ -45,71 +45,152 @@ nbfarm_prodarea <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-jordbr
 # Data cleaning
 
 ## New "year" variable
-yieldha_county <- yieldha_county |> 
+
+### County level
+# yieldha_county <- yieldha_county |> 
+#   pivot_longer(
+#     cols = c(-county, -cropType),
+#     names_to = "year",
+#     values_to = "yieldHectarKgHa"
+#   )
+# totyieldton_county <- totyieldton_county |> 
+#   pivot_longer(
+#     cols = c(-county, -cropType),
+#     names_to = "year",
+#     values_to = "totalYieldTon"
+#   )
+# areaha_county <- areaha_county |> 
+#   pivot_longer(
+#     cols = c(-county, -cropType),
+#     names_to = "year",
+#     values_to = "areaHa"
+#   )
+# nbfarm_county <- nbfarm_county |> 
+#   pivot_longer(
+#     cols = c(-county, -cropType),
+#     names_to = "year",
+#     values_to = "numberFarms"
+#   )
+
+### Production area level
+totyieldton_prodarea <- totyieldton_prodarea |> 
   pivot_longer(
-    cols = c(-county, -cropType),
-    names_to = "year",
-    values_to = "yieldHectarKgHa"
-  )
-totyieldton_county <- totyieldton_county |> 
-  pivot_longer(
-    cols = c(-county, -cropType),
+    cols = c(-productionArea, -cropType),
     names_to = "year",
     values_to = "totalYieldTon"
   )
-areaha_county <- areaha_county |> 
+areaha_prodarea <- areaha_prodarea |> 
   pivot_longer(
-    cols = c(-county, -cropType),
+    cols = c(-productionArea, -cropType),
     names_to = "year",
     values_to = "areaHa"
   )
-nbfarm_county <- nbfarm_county |> 
+nbfarm_prodarea <- nbfarm_prodarea |> 
   pivot_longer(
-    cols = c(-county, -cropType),
+    cols = c(-productionArea, -cropType),
     names_to = "year",
     values_to = "numberFarms"
   )
 
 ## Dataset
-crop_county <- purrr::reduce(list(
-  yieldha_county,
-  totyieldton_county,
-  areaha_county,
-  nbfarm_county
+
+### County level
+# crop_county <- purrr::reduce(list(
+#   yieldha_county,
+#   totyieldton_county,
+#   areaha_county,
+#   nbfarm_county
+# ), dplyr::left_join)
+
+### Production area
+crop_prodarea <- purrr::reduce(list(
+  totyieldton_prodarea,
+  areaha_prodarea,
+  nbfarm_prodarea
 ), dplyr::left_join)
 
 # Variable distribution
 
+## Crop types without farm number & area data
+yieldonly <- crop_prodarea |> 
+  group_by(cropType) |> 
+  summarise(
+    numberFarms = sum(numberFarms, na.rm = TRUE)
+  ) |> 
+  filter(numberFarms == 0)
+unique(yieldonly$cropType)
+
 ## Summarise at national-level for 2025
-yieldha_natio <- yieldha_county |>
+
+### County level
+# crop_county_natio <- crop_county |>
+#   filter(year == "2025") |> 
+#   group_by(cropType) |>
+#   summarise(
+#     yieldHectarKgHa = sum(yieldHectarKgHa, na.rm = TRUE),
+#     totalYieldTon = sum(totalYieldTon, na.rm = TRUE),
+#     areaHa = sum(areaHa, na.rm = TRUE),
+#     numberFarms = sum(numberFarms, na.rm = TRUE)
+#   )
+
+### Production area level
+crop_prodarea_natio <- crop_prodarea |>
+  # selection only common crop types between all variables
+  filter(numberFarms > 0) |> 
+  # selection only 2025
   filter(year == "2025") |> 
-  group_by(cropType) |> 
-  summarise(yieldHectarKgHa = sum(yieldHectarKgHa, na.rm = TRUE)) |> 
-  mutate(cropType = fct_reorder(cropType, desc(yieldHectarKgHa)))
-totyieldton_natio <- totyieldton_county |>
-  filter(year == "2025") |> 
-  group_by(cropType) |> 
-  summarise(totalYieldTon = sum(totalYieldTon, na.rm = TRUE)) |> 
-  mutate(cropType = fct_reorder(cropType, desc(totalYieldTon)))
-areaha_natio <- areaha_county |>
-  filter(year == "2025") |> 
-  group_by(cropType) |> 
-  summarise(areaHa = sum(areaHa, na.rm = TRUE)) |> 
-  mutate(cropType = fct_reorder(cropType, desc(areaHa)))
-nbfarm_natio <- nbfarm_county |>
-  filter(year == "2025") |> 
-  # remove total farm number per county
-  filter(cropType != "Total åkermark") |> 
-  group_by(cropType) |> 
-  summarise(numberFarms = sum(numberFarms, na.rm = TRUE)) |> 
-  mutate(cropType = fct_reorder(cropType, desc(numberFarms)))
+  group_by(cropType) |>
+  summarise(
+    totalYieldTon = sum(totalYieldTon, na.rm = TRUE),
+    areaHa = sum(areaHa, na.rm = TRUE),
+    numberFarms = sum(numberFarms, na.rm = TRUE)
+  )
 
 ## Barplot
+bardistri <- function(data) {
+  distriplot <- data |> 
+    # mutate(var1 = fct_reorder(var1, desc(var2))) |> 
+    ggplot() +
+    geom_bar(
+      stat = "identity"
+    ) +
+    theme(
+      panel.background = element_blank(),
+      panel.grid.major = element_line(colour = "grey"),
+      axis.text = element_text(
+        angle = 90
+      )
+    )
+  
+  distriplot  
+}
 
-### Yield Ha
-plot_yieldha_natio <- ggplot(
-  yieldha_natio, aes(x = cropType, y = yieldHectarKgHa)
-) +
+## County level
+
+# ### Yield Ha
+# plot_yieldha_countynatio <- bardistri(crop_county_natio, cropType, yieldHectarKgHa)
+# ### Total yield ton
+# plot_totyieldton_countynatio <- bardistri(crop_county_natio, cropType, totalYieldTon)
+# ### Area Ha
+# plot_areaha_countynatio <- bardistri(crop_county_natio, cropType, areaHa)
+# ### Number farms
+# plot_nbfarm_countynatio <- bardistri(crop_county_natio, cropType, numberFarms)
+
+## Production area level
+
+### Total yield ton - more crop types than for farm & area
+totyieldton_prodarea_2025 <- totyieldton_prodarea |> 
+  filter(year == "2025") |> 
+  group_by(cropType) |>
+  summarise(
+    totalYieldTon = sum(totalYieldTon, na.rm = TRUE),
+  )
+
+plot_totyield_natio <- totyieldton_prodarea_2025 |> 
+  mutate(cropType = fct_reorder(cropType, desc(totalYieldTon))) |> 
+  ggplot(
+    aes(x = cropType, y = totalYieldTon)
+  ) +
   geom_bar(
     stat = "identity"
   ) +
@@ -120,28 +201,14 @@ plot_yieldha_natio <- ggplot(
       angle = 90
     )
   )
-plot_yieldha_natio
-
-### Total yield ton
-plot_totyieldton_natio <- ggplot(
-  totyieldton_natio, aes(x = cropType, y = totalYieldTon)
-) +
-  geom_bar(
-    stat = "identity"
-  ) +
-  theme(
-    panel.background = element_blank(),
-    panel.grid.major = element_line(colour = "grey"),
-    axis.text = element_text(
-      angle = 90
-    )
-  )
-plot_totyieldton_natio
+plot_totyield_natio
 
 ### Area Ha
-plot_areaha_natio <- ggplot(
-  areaha_natio, aes(x = cropType, y = areaHa)
-) +
+plot_area_natio <- crop_prodarea_natio |> 
+  mutate(cropType = fct_reorder(cropType, desc(areaHa))) |> 
+  ggplot(
+    aes(x = cropType, y = areaHa)
+  ) +
   geom_bar(
     stat = "identity"
   ) +
@@ -152,12 +219,14 @@ plot_areaha_natio <- ggplot(
       angle = 90
     )
   )
-plot_areaha_natio
+plot_area_natio
 
 ### Number farms
-plot_nbfarm_natio <- ggplot(
-  nbfarm_natio, aes(x = cropType, y = numberFarms)
-) +
+plot_nbfarm_natio <- crop_prodarea_natio |> 
+  mutate(cropType = fct_reorder(cropType, desc(numberFarms))) |> 
+  ggplot(
+    aes(x = cropType, y = numberFarms)
+  ) +
   geom_bar(
     stat = "identity"
   ) +
@@ -169,3 +238,47 @@ plot_nbfarm_natio <- ggplot(
     )
   )
 plot_nbfarm_natio
+
+## Scatterplot
+
+### farm x area
+plot_areaxfarm <- crop_prodarea_natio |> 
+  ggplot(
+    aes(x = areaHa, y = numberFarms)
+  ) +
+  geom_text(
+    label = crop_prodarea_natio$cropType
+  ) +
+  theme(
+    panel.background = element_blank(),
+    panel.grid.major = element_line(colour = "grey")
+  )
+plot_areaxfarm
+
+### farm x yield
+plot_yieldxfarm <- crop_prodarea_natio |> 
+  ggplot(
+    aes(x = totalYieldTon, y = numberFarms)
+  ) +
+  geom_text(
+    label = crop_prodarea_natio$cropType
+  ) +
+  theme(
+    panel.background = element_blank(),
+    panel.grid.major = element_line(colour = "grey")
+  )
+plot_yieldxfarm
+
+### yield x area
+plot_areaxyield <- crop_prodarea_natio |> 
+  ggplot(
+    aes(x = areaHa, y = totalYieldTon)
+  ) +
+  geom_text(
+    label = crop_prodarea_natio$cropType
+  ) +
+  theme(
+    panel.background = element_blank(),
+    panel.grid.major = element_line(colour = "grey")
+  )
+plot_areaxyield
