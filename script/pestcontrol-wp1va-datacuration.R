@@ -239,6 +239,36 @@ plot_nbfarm_natio <- crop_prodarea_natio |>
   )
 plot_nbfarm_natio
 
+### All grouped
+plot_areayieldfarm_natio <- crop_prodarea_natio |> 
+  mutate(
+  totalYieldTon = totalYieldTon/10,
+  numberFarms = numberFarms*10
+  ) |> 
+  pivot_longer(
+    cols = c(totalYieldTon, areaHa, numberFarms),
+    names_to = "variables",
+    values_to = "value"
+  ) |> 
+  mutate(cropType = fct_reorder(cropType, desc(value))) |> 
+  ggplot(
+    aes(x = cropType, y = value, fill = variables)
+  ) +
+  geom_bar(
+    stat = "identity",
+    position = "dodge"
+  ) +
+  scale_fill_grey() +
+  theme(
+    panel.background = element_blank(),
+    panel.grid.major = element_line(colour = "grey"),
+    axis.text = element_text(
+      angle = 90
+    )
+  )
+plot_areayieldfarm_natio
+ggsave("outputs/exploratory/area+yield+farm.png", plot = get_last_plot(), width = 30, height = 20, units = "cm")
+    
 ## Scatterplot
 
 ### farm x area
@@ -254,6 +284,7 @@ plot_areaxfarm <- crop_prodarea_natio |>
     panel.grid.major = element_line(colour = "grey")
   )
 plot_areaxfarm
+ggsave("outputs/exploratory/areaxfarm.png", plot = get_last_plot(), width = 30, height = 20, units = "cm")
 
 ### farm x yield
 plot_yieldxfarm <- crop_prodarea_natio |> 
@@ -268,6 +299,7 @@ plot_yieldxfarm <- crop_prodarea_natio |>
     panel.grid.major = element_line(colour = "grey")
   )
 plot_yieldxfarm
+ggsave("outputs/exploratory/farmxyield.png", plot = get_last_plot(), width = 30, height = 20, units = "cm")
 
 ### yield x area
 plot_areaxyield <- crop_prodarea_natio |> 
@@ -282,3 +314,4 @@ plot_areaxyield <- crop_prodarea_natio |>
     panel.grid.major = element_line(colour = "grey")
   )
 plot_areaxyield
+ggsave("outputs/exploratory/areaxyield.png", plot = get_last_plot(), width = 30, height = 20, units = "cm")
