@@ -34,6 +34,9 @@ totyieldton_prodarea <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-j
 areaha_prodarea <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-jordbruksverket-areahaxprodareaxcrop2021-2025.xlsx")
 nbfarm_prodarea <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-jordbruksverket-nbfarmxprodareaxcrop2021-2025.xlsx")
 
+## Active substances
+# pesticideton_product <- read_excel(path = )
+
 #### PRELIMINARY DATA CLEANING EXCEL ####
 
 # removal two first head rows and meta data
@@ -108,6 +111,9 @@ crop_prodarea <- purrr::reduce(list(
   areaha_prodarea,
   nbfarm_prodarea
 ), dplyr::left_join)
+
+### Crop list
+croplist <- unique(crop_prodarea$cropType)
 
 # Variable distribution
 
@@ -315,3 +321,44 @@ plot_areaxyield <- crop_prodarea_natio |>
   )
 plot_areaxyield
 ggsave("outputs/exploratory/areaxyield.png", plot = get_last_plot(), width = 30, height = 20, units = "cm")
+
+
+#### PEST INCIDENCE NETWORK ####
+
+## Network packages
+library(igraph) # network graph
+library(networkD3) # interactive network
+
+## Raw data
+pestxcrop <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-pestcropassociation.xlsx")
+treatmentxpest <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-treatmentpestassociation.xlsx")
+
+## Data curation
+pestxcrop <- as.data.frame(na.omit(pestxcrop))
+treatmentxpest <- as.data.frame(na.omit(treatmentxpest))
+
+## Dataset
+pestxcrop <- pestxcrop |> 
+  count(crop, pest) |> 
+  mutate_all(~replace_na(., 0))
+pestxcrop <- xtabs(n ~ pest + crop, data = pestxcrop)
+
+## Pest crop network
+pestxcrop_network <- graph_from_biadjacency_matrix(pestxcrop)
+plot(pestxcrop_network)
+
+# ## Link dataset
+# links <- subset(pestxcrop, select = c(pest, crop, impact))
+# links <- links |> 
+# 
+# ## Node dataset
+# node <- subset(treatmentxpest, select = c(pest, pestType))
+# node <- node |> 
+#   distinct(pest, .keep_all = TRUE)
+# 
+# ## Pest crop network
+# pestcrop_network <- graph_from_data_frame(
+#   d = pestxcrop,
+#   vertices = node,
+#   directed = FALSE
+# )
