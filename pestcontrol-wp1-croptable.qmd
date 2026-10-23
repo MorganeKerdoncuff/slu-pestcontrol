@@ -1,6 +1,55 @@
 ---
-title: "Untitled"
 format: html
 ---
 
-## Quarto
++------------------------------------------------------------------------------
+| pest | latin | targets | risk factors | severity | chemical treatment effectiveness | vulnerable crops | vulnerable regions
++=============================================================================
+| brown foot rot | *Fusarium* spp | wheat, triticale, oat | rain & warm weather during flowering; large amount crop residues; previous crops corn, wheat, triticale, oat, sugar beet, grass pasture | high: regular substantial infestations, severe outbreaks 2 out of 10 years | 50% | spring wheat, oat | western Sweden
++
+| leaf and glume botch | *Parastagonospora nodorum* |
++
+| brown rust | *Puccinia triticina* |
++
+| dwarf bunt | *Tilletia controversa* |
++
+| frit fly | *Oscinella frit* |
++
+| grey mould | *Botrytis cinerea* |
++
+| yellow rust | *Puccinia striiformis* |
++
+| winter triticale
++
+| spring triticale
++
+| corn
++
+| peas
++
+| field beans
++
+| winter oilseed rape
++
+| spring oilseed rape
++
+| winter turnip rape
++
+| spring turnip rape
++
+| foraging cereals (excl. corn)
++
+| foraging corn
++
+| other foraging crops
++
+| linseed
++
+| ware potatoes
++
+| starch potatoes
++
+| sugar beet
++
+| hay
++-----
