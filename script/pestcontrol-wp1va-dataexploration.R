@@ -328,6 +328,7 @@ ggsave("outputs/exploratory/areaxyield.png", plot = get_last_plot(), width = 30,
 ## Network packages
 library(igraph) # network graph
 library(networkD3) # interactive network
+library(vegan) # make cep.names
 
 ## Raw data
 pestxcrop <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-pestcropassociation.xlsx")
@@ -337,7 +338,7 @@ treatmentxpest <- read_excel(path = "data/rawdata/slupesticidefree-wp1va-treatme
 pestxcrop <- as.data.frame(na.omit(pestxcrop))
 treatmentxpest <- as.data.frame(na.omit(treatmentxpest))
 
-## Dataset
+## Dataset pest x crop
 pestxcrop <- pestxcrop |> 
   count(crop, pest) |> 
   mutate_all(~replace_na(., 0))
@@ -345,7 +346,29 @@ pestxcrop <- xtabs(n ~ pest + crop, data = pestxcrop)
 
 ## Pest crop network
 pestxcrop_network <- graph_from_biadjacency_matrix(pestxcrop)
-plot(pestxcrop_network)
+plot(pestxcrop_network, layout = layout.circle)
+
+## Dataset pest x treatment
+treatmentxpest <- treatmentxpest |>
+  mutate(pest = make.cepnames(pest)) |> 
+  count(pest, treatment) |> 
+  mutate_all(~replace_na(., 0))
+treatmentxpest <- xtabs(n ~ pest + treatment, data = treatmentxpest)
+
+## Pest treatment network
+treatmentxpest_network <- graph_from_biadjacency_matrix(treatmentxpest)
+
+## Pest treatment plot network
+### Node size according to number of links
+deg <- degree(treatmentxpest_network, mode = "all")
+V(treatmentxpest_network)$size <- deg*3
+### Node colour according to variable
+V(treatmentxpest_network)$
+### Plot
+plot(treatmentxpest_network, layout = layout.circle)
+
+## Network customisation
+
 
 # ## Link dataset
 # links <- subset(pestxcrop, select = c(pest, crop, impact))
