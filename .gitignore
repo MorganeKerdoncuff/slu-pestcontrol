@@ -34,12 +34,15 @@ gis/*
 
 # Figures (excludes all figures)
 outputs/*
+*.svg
+*.png
 
 # Text output (excludes all rendered files)
 *.pdf
 *.html
 *.docx
 *.tex
+textoutput/*
 
 # Error monitoring
 *.log
