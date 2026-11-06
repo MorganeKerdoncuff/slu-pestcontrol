@@ -44,3 +44,5 @@ outputs/*
 # Error monitoring
 *.log
 *.aux
+/.quarto/
+**/*.quarto_ipynb
