@@ -1,0 +1,31 @@
+---
+format: 
+  docx: default
+  pdf:
+    keep-tex: TRUE
+    mainfont: "Calibri"
+    sansfont: "Calibri"
+    include-in-header: 
+      text: |
+        \pagenumbering{gobble}
+---
+
+## Project: Efficiency of early-flowering cultivar mixture in controlling pest damages in winter oilseed rape
+
+***Background.*** The rising perspective of a future without chemical pesticides offers great opportunities to explore **alternative pest control strategies** and pave the way for sustainable crop production in Europe.
+At the Swedish University of Agricultural Sciences, we aim for research to provide the most suitable tools and guidelines for farmers and crop advisers, as we believe tomorrow's challenges will be addressed only through **extensive collaboration between academia and practitioners**.
+
+***Project objective.*** Our study aims to test how commercial **early-flowering cultivar mixture** could help reducing pest damage in **winter oilseed rape**.
+We will investigate the impact of the cabbage stem flea beetle (*Psylliodes chrysocephala*), the cabbage stem weevil (*Ceutorhynchus pallidactylus*), the pollen beetle (*Brassicogethes aeneus*), the cabbage seed weevil (*Ceutorhynchus obstrictus*), and the brassica pod midge (*Dasineura brassicae*), in **10 farmer fields** distributed across Skåne, Sweden's most productive area.
+
+***Internship description.*** You will contribute to the **2027 data collection campaign**, which includes fieldwork in Skåne and lab work at the Alnarp campus of the Swedish University of Agricultural Sciences.
+You will be trained to identify crop injuries from different types of pests and get experience with experimental set-ups in non-controlled environments.
+We look for students with backgrounds in biology, ecology, or agronomy, who are **organised**, feel confident in **conducting fieldwork independently** when necessary, and are comfortable **working in an international team**.
+No specific experience is needed, as long as you enjoy spending the day outside !
+Master students are welcome to use this data collection campaign to design their own thesis projects.
+
+***Contact.*** **Morgane KERDONCUFF** (postdoc)
+If you are interested or have any question regarding the internship, a videocall can be arranged.
+
+![](method/wp2-earlyflowering/pesticidefree-wp2ef-methodillustration_1.png){width=90% fig-align="center}
+

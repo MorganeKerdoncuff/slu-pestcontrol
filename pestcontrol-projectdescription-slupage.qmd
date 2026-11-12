@@ -1,0 +1,45 @@
+---
+format:
+  docx: default
+  pdf:
+    keep-tex: TRUE
+    mainfont: "Calibri"
+    sansfont: "Calibri"
+    include-in-header: 
+      text: |
+        \pagenumbering{gobble}
+---
+
+## Preparing Swedish agriculture for decreasing access to chemical pesticides - vulnerability analysis and possible alternatives
+
+
+### Project overview
+
+- project start: 
+- project ending:
+- project manager: Ola Lundin
+- funded by: Stiftelsen Lantbruksforskning
+- collaborator: HIR Skåne
+
+### Participants
+
+- project members:
+  - Ola Lundin
+  - Riccardo Bommarco
+  - Chloe Raderschall
+  - Anton Sandmark
+  - Morgane Kerdoncuff
+- Research groups:
+  - Agricultural Entomology
+  - ...
+  - ...
+
+### More related research
+
+- Agricultural Sciences
+
+### Short summary
+
+What are the challenges and opportunities that can emerge from the phasing out of chemical plant protection substances in Swedish agricultural systems ?
+
+
