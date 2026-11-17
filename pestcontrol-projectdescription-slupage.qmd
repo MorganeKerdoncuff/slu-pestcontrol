@@ -1,13 +1,6 @@
 ---
 format:
   docx: default
-  pdf:
-    keep-tex: TRUE
-    mainfont: "Calibri"
-    sansfont: "Calibri"
-    include-in-header: 
-      text: |
-        \pagenumbering{gobble}
 ---
 
 ## Preparing Swedish agriculture for decreasing access to chemical pesticides - vulnerability analysis and possible alternatives
@@ -40,6 +33,18 @@ format:
 
 ### Short summary
 
-What are the challenges and opportunities that can emerge from the phasing out of chemical plant protection substances in Swedish agricultural systems ?
+*What are the challenges and opportunities that can emerge from an agriculture without chemical pesticides in Sweden ?*
 
+The recent ban of several per- and polyfluoroalkyl substances (PFAS) in Denmark shows how the availability of chemical pesticides will keep on declining in the nearest future.
+However, how the shift towards alternative pest control strategies will affect crop yield and farm profitability is still largely uncertain.
+In 2026, the Swedish Plant Protection Council commissioned a report on the potential impacts of a withdrawal of trifluoroacetate-forming compounds in insecticides, expressing the need for actionable knowledge to support the agroecological transition of Swedish cropping systems.
 
+Our project aims 
+(1) to identify which crops would be the most affected by a general ban of chemical pesticides and 
+(2) to explore the benefits and trade-offs of current pest control alternatives.
+
+To address our first objective, we will perform a vulnerability analysis of Swedish cropping systems to chemical pesticide withdrawal based on expert knowledge and pesticide trial data from the Nordic Field Trial System.
+In a second phase, we will assess the potential of integrated pest control management strategies in most economically important crops and test their effects in two field studies.
+The first field study will be conducted in 2027 and will investigate the efficiency of early-flowering cultivar mixture in limiting pest incidence in winter oilseed rape. 
+In ten farmer fields distributed across Skåne, we will assess crop yield and damages caused by the cabbage stem flea beetle (*Psylliodes chrysocephala*), the pollen beetle (*Brassicogethes aeneus*), the blue stem weevil (*Ceutorhynchus sulcicollis*), the cabbage seed weevil (*Ceutorhynchus obstrictus*) and the brassica pod midge (*Dasineura brassicae*).
+The second study will be conducted in 2028, and its focus will be determined by the outcome of the potentiality assessment.
